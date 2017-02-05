@@ -1,0 +1,32 @@
+go.property("bone", hash(""))
+
+function init(self)
+	local parent = spine.get_go("player#spinemodel", self.bone)
+	msg.post(".", "set_parent", { parent_id = parent, keep_world_transform = 1 })
+end
+
+function final(self)
+	-- Add finalization code here
+	-- Remove this function if not needed
+end
+
+function update(self, dt)
+	-- Add update code here
+	-- Remove this function if not needed
+end
+
+function on_message(self, message_id, message, sender)
+	msg.post("player", message_id, message)
+	-- Add message-handling code here
+	-- Remove this function if not needed
+end
+
+function on_input(self, action_id, action)
+	-- Add input-handling code here
+	-- Remove this function if not needed
+end
+
+function on_reload(self)
+	-- Add reload-handling code here
+	-- Remove this function if not needed
+end

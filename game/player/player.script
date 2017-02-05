@@ -1,0 +1,62 @@
+local platformer = require "ludobits.m.platformer"
+
+local gravity = vmath.vector3(0, -10, 0)
+
+function init(self)
+	msg.post("#", "acquire_input_focus")
+	self.velocity = vmath.vector3()
+	self.platformer = platformer.create({ hash("ground") })
+	self.platformer.gravity = -1000
+	spine.play_anim("#spinemodel", hash("run"), go.PLAYBACK_LOOP_FORWARD, { playback_rate = 10.2 })
+end
+
+function final(self)
+	msg.post("#", "release_input_focus")
+end
+
+function update(self, dt)
+	local speed = go.get("/game#script", "speed")
+	go.set("#spinemodel", "playback_rate", speed / 500)
+	
+	if not self.platformer.is_jumping() and not self.platformer.is_falling()  then
+		if self.jumping then		
+			self.jumping = false
+			--spine.play_anim("#spinemodel", hash("run"), go.PLAYBACK_LOOP_FORWARD)
+		end
+	else
+		--spine.play_anim("#spinemodel", hash("jump"), go.PLAYBACK_LOOP_FORWARD)
+	end
+	self.platformer.update(dt)
+
+end
+
+function on_message(self, message_id, message, sender)
+	self.platformer.on_message(message_id, message)
+	if message_id == hash("idle") then
+		print("idle")
+		spine.play_anim("#spinemodel", hash("idle"), go.PLAYBACK_LOOP_FORWARD, { blend_duration = 0.5 })
+	elseif message_id == hash("walk") then
+		print("walk")
+		spine.play_anim("#spinemodel", hash("walk"), go.PLAYBACK_LOOP_FORWARD, { blend_duration = 0.3 })
+	elseif message_id == hash("run") then
+		print("run")
+		spine.play_anim("#spinemodel", hash("run"), go.PLAYBACK_LOOP_FORWARD, { blend_duration = 0.2 })
+	end
+end
+
+function on_input(self, action_id, action)
+	if action_id == hash("jump") then
+		if action.pressed then
+			self.jumping = true
+			self.platformer.jump(600 , true)
+			--spine.play_anim("#spinemodel", hash("jump"), go.PLAYBACK_LOOP_FORWARD)
+		elseif action.released then
+			self.platformer.abort_jump()
+		end
+	end
+end
+
+function on_reload(self)
+	-- Add reload-handling code here
+	-- Remove this function if not needed
+end

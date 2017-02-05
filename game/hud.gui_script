@@ -1,0 +1,31 @@
+local UPDATE_DISTANCE = hash("update_distance")
+
+function init(self)
+	self.distance_node = gui.get_node("distance")
+end
+
+function final(self)
+	-- Add finalization code here
+	-- Remove this function if not needed
+end
+
+function update(self, dt)
+	-- Add update code here
+	-- Remove this function if not needed
+end
+
+function on_message(self, message_id, message, sender)
+	if message_id == UPDATE_DISTANCE then
+		gui.set_text(self.distance_node, tostring(math.floor(message.distance)) .. " m")
+	end
+end
+
+function on_input(self, action_id, action)
+	-- Add input-handling code here
+	-- Remove this function if not needed
+end
+
+function on_reload(self)
+	-- Add input-handling code here
+	-- Remove this function if not needed
+end

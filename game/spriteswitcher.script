@@ -1,0 +1,14 @@
+go.property("anim_id", hash(""))
+
+function init(self)
+	msg.post("#sprite", "play_animation", { id = self.anim_id })
+end
+
+function on_message(self, message_id, message, sender)
+	if message_id == hash("animation_done") then
+		local size = go.get("#sprite", "size")
+		local pos = go.get_position()
+		pos.y = pos.y + size.y / 2
+		--go.set_position(pos)
+	end
+end
