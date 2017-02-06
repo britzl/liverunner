@@ -1,0 +1,75 @@
+go.property("level", 1)
+
+
+local function initial_spawn(self)
+	for layer_id, layer in pairs(level_data) do
+		local data = layer[self.level]
+		local pos = vmath.vector3(0, data.y, data.z)
+		for i=1,data.amount do
+			local id = factory.create(data.factory, nil, nil, { anim_id = data.sprites[math.random(1, #data.sprites)] })
+			local size = go.get(msg.url(nil, id, "sprite"), "size")
+			data.width = size.x
+			go.set_position(pos, id)
+			pos.x = pos.x + data.width + math.random(data.spacing.min, data.spacing.max)
+			pos.y = data.y + math.random(data.y_variation.min, data.y_variation.max)
+			table.insert(self.objects[layer_id], id)
+		end
+	end
+end
+
+function init(self)
+	self.objects = {}
+	for layer_id,layer_data in pairs(level_data) do
+		if layer_data[self.level] then
+			self.objects[layer_id] = {}
+		end
+	end
+end
+
+function final(self)
+    -- Add finalization code here
+    -- Remove this function if not needed
+end
+
+function update(self, dt)
+	local speed = go.get("game:/game#script", "speed")
+	
+	for layer_id,layer_objects in pairs(self.objects) do
+		local layer_data = level_data[layer_id][self.level]
+		for i,object in pairs(layer_objects) do
+			local pos = go.get_position(object)
+			local size = go.get(msg.url(nil, object, "sprite"), "size")
+			local relative_speed = vmath.vector3(math.max(0, speed - (-pos.z * 250)), 0, 0)
+			pos = pos - relative_speed * dt
+			go.set_position(pos, object)
+			if pos.x < -size.x then
+				go.delete(object)
+
+				pos.x = pos.x + (size.x + math.random(layer_data.spacing.min, layer_data.spacing.max)) * layer_data.amount
+				pos.y = layer_data.y + math.random(layer_data.y_variation.min, layer_data.y_variation.max)
+				pos.z = layer_data.z
+				local id = factory.create(layer_data.factory, pos, nil, { anim_id = layer_data.sprites[math.random(1, #layer_data.sprites)] })
+				layer_objects[i] = id
+			end
+		end
+	end
+end
+
+function on_message(self, message_id, message, sender)
+	if message_id == hash("spawn") then
+	elseif message_id == hash("initial_spawn") then
+		initial_spawn(self)
+	end
+    -- Add message-handling code here
+    -- Remove this function if not needed
+end
+
+function on_input(self, action_id, action)
+    -- Add input-handling code here
+    -- Remove this function if not needed
+end
+
+function on_reload(self)
+    -- Add reload-handling code here
+    -- Remove this function if not needed
+end
