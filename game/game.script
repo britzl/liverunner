@@ -9,7 +9,6 @@ function init(self)
 		while true do
 			flow.load("#level"..tostring(level))
 			local message_id, message, sender = flow.until_message(hash("level_completed"), hash("level_failed"))
-			print("level completed", sender)
 			flow.unload("#level"..tostring(level))
 			level = math.min(2, level + 1)
 		end

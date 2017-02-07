@@ -5,7 +5,7 @@ local flow = require "ludobits.m.flow"
 
 
 local CREATE_BOX_COIN = hash("create_box_coin")
-local LEVEL_COMPLETED = hash("level_completeds")
+local LEVEL_COMPLETED = hash("level_completed")
 
 function init(self)
 	go.animate("#", "zoom", go.PLAYBACK_ONCE_FORWARD, 1.5, go.EASING_LINEAR, 2)
@@ -33,7 +33,6 @@ function on_message(self, message_id, message, sender)
 			msg.post("player/player", "collected_coin")
 		end)
 	elseif message_id == LEVEL_COMPLETED then
-		print("level completed")
 		msg.post("fireworks1", "start")
 		msg.post("fireworks2", "start")
 		msg.post("fireworks3", "start")
@@ -41,7 +40,7 @@ function on_message(self, message_id, message, sender)
 		msg.post("fireworks5", "start")
 		flow(function()
 			flow.delay(4)
-			--msg.post("game:/game", "level_completed")
+			msg.post("game:/game", "level_completed")
 		end)
 	end
 end
