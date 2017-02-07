@@ -139,6 +139,54 @@ images {
 images {
   image: "/assets/enemies/mouse_walk.png"
 }
+images {
+  image: "/assets/tiles/boxCoin.png"
+}
+images {
+  image: "/assets/tiles/boxCoin_disabled.png"
+}
+images {
+  image: "/assets/items/flagGreenHanging.png"
+}
+images {
+  image: "/assets/items/flagRed.png"
+}
+images {
+  image: "/assets/items/flagRed2.png"
+}
+images {
+  image: "/assets/items/flagRedHanging.png"
+}
+images {
+  image: "/assets/items/flagYellow.png"
+}
+images {
+  image: "/assets/items/flagYellow2.png"
+}
+images {
+  image: "/assets/items/flagYellowHanging.png"
+}
+images {
+  image: "/assets/enemies/ghost_dead.png"
+}
+images {
+  image: "/assets/enemies/ghost_normal.png"
+}
+images {
+  image: "/assets/enemies/ghost_hit.png"
+}
+images {
+  image: "/assets/enemies/bee_dead.png"
+}
+images {
+  image: "/assets/enemies/bee_hit.png"
+}
+images {
+  image: "/assets/items/fireball.png"
+}
+images {
+  image: "/assets/items/star.png"
+}
 animations {
   id: "player_walk"
   images {
@@ -207,7 +255,7 @@ animations {
   images {
     image: "/assets/enemies/bat_fly.png"
   }
-  playback: PLAYBACK_ONCE_FORWARD
+  playback: PLAYBACK_LOOP_FORWARD
   fps: 10
   flip_horizontal: 0
   flip_vertical: 0
@@ -235,6 +283,65 @@ animations {
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 5
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "flag_goal"
+  images {
+    image: "/assets/items/flagGreen.png"
+  }
+  images {
+    image: "/assets/items/flagGreen2.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 10
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "flag_checkpoint_active"
+  images {
+    image: "/assets/items/flagBlue.png"
+  }
+  images {
+    image: "/assets/items/flagBlue2.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 10
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "flag_checkpoint_inactive"
+  images {
+    image: "/assets/items/flagBlueHanging.png"
+  }
+  playback: PLAYBACK_ONCE_FORWARD
+  fps: 30
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "ghost_walk"
+  images {
+    image: "/assets/enemies/ghost.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 10
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "bee_fly"
+  images {
+    image: "/assets/enemies/bee.png"
+  }
+  images {
+    image: "/assets/enemies/bee_fly.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 20
   flip_horizontal: 0
   flip_vertical: 0
 }

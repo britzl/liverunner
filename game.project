@@ -34,9 +34,10 @@ launch_image_1536x2048 = /assets/loadingscreens/screen_1536x2048.png
 launch_image_1024x768 = /assets/loadingscreens/screen_1024x768.png
 launch_image_1242x2208 = /assets/loadingscreens/screen_1242x2208.png
 launch_image_2208x1242 = /assets/loadingscreens/screen_2208x1242.png
-launch_image_2048x1536 = /assets/loadingscreens/screen_2048x1536.png
+launch_image_2048x1536 = /assets/loadingscreens/king_splash_2048x1536.png
 bundle_identifier = com.example.todo
 app_icon_167x167 = /assets/appicons/icon_167.png
+launch_image_2732x2048 = /assets/loadingscreens/king_splash_2732x2048.png
 
 [osx]
 bundle_identifier = com.example.todo

@@ -1,27 +1,27 @@
-go.property("zoom", 1)
 local flow = require "ludobits.m.flow"
-
-
-local WIDTH = sys.get_config("display.width")
-local HEIGHT = sys.get_config("display.height")
-
-local BG_COLOR = vmath.vector4(213/255, 237/255, 246/255, 1)
 
 function init(self)
 	math.randomseed(os.time())
-	self.zoom = 1
-	go.animate("#", "zoom", go.PLAYBACK_ONCE_FORWARD, 1.5, go.EASING_LINEAR, 2)
+	msg.post("#", "acquire_input_focus")
+	
+	local level = 1
+	flow(function()
+		while true do
+			flow.load("#level"..tostring(level))
+			local message_id, message, sender = flow.until_message(hash("level_completed"), hash("level_failed"))
+			print("level completed", sender)
+			flow.unload("#level"..tostring(level))
+			level = math.min(2, level + 1)
+		end
+	end)
 end
 
 function final(self)
-	-- Add finalization code here
-	-- Remove this function if not needed
+	msg.post("#", "release_input_focus")
 end
 
 function update(self, dt)
 	flow.update(dt)
-	msg.post("@render:", "clear_color", { color = BG_COLOR })
-	msg.post("@render:", "set_zoom", { zoom = self.zoom })
 end
 
 function on_message(self, message_id, message, sender)

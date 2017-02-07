@@ -75,6 +75,7 @@ embedded_instances {
   "mask: \\\"box\\\"\\n"
   "mask: \\\"enemy\\\"\\n"
   "mask: \\\"goal\\\"\\n"
+  "mask: \\\"checkpoint\\\"\\n"
   "mask: \\\"death\\\"\\n"
   "mask: \\\"coin\\\"\\n"
   "embedded_collision_shape {\\n"

@@ -1,5 +1,265 @@
 name: "level1"
 instances {
+  id: "coin_box1"
+  prototype: "/game/coin_box.go"
+  position {
+    x: 1307.7614
+    y: 454.06403
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin_box10"
+  prototype: "/game/coin_box.go"
+  position {
+    x: 10464.102
+    y: 735.3
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin_box11"
+  prototype: "/game/coin_box.go"
+  position {
+    x: 14314.399
+    y: 735.3
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin_box12"
+  prototype: "/game/coin_box.go"
+  position {
+    x: 14246.109
+    y: 735.3
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin_box13"
+  prototype: "/game/coin_box.go"
+  position {
+    x: 5775.0
+    y: 525.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin_box2"
+  prototype: "/game/coin_box.go"
+  position {
+    x: 4713.2827
+    y: 664.8466
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin_box3"
+  prototype: "/game/coin_box.go"
+  position {
+    x: 7386.4883
+    y: 735.5922
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin_box4"
+  prototype: "/game/coin_box.go"
+  position {
+    x: 7875.0
+    y: 525.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin_box5"
+  prototype: "/game/coin_box.go"
+  position {
+    x: 8435.025
+    y: 525.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin_box6"
+  prototype: "/game/coin_box.go"
+  position {
+    x: 8645.325
+    y: 525.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin_box7"
+  prototype: "/game/coin_box.go"
+  position {
+    x: 8645.325
+    y: 735.3
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin_box8"
+  prototype: "/game/coin_box.go"
+  position {
+    x: 8854.464
+    y: 525.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin_box9"
+  prototype: "/game/coin_box.go"
+  position {
+    x: 10395.8125
+    y: 735.3
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
   id: "coin1"
   prototype: "/game/coin.go"
   position {
@@ -323,7 +583,7 @@ instances {
   id: "slime2"
   prototype: "/game/slime.go"
   position {
-    x: 1945.6525
+    x: 1775.0101
     y: 237.8391
     z: 0.0
   }
@@ -345,6 +605,86 @@ instances {
   position {
     x: 3319.6777
     y: 241.92514
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.0
+    y: 2.0
+    z: 1.0
+  }
+}
+instances {
+  id: "snail10"
+  prototype: "/game/snail.go"
+  position {
+    x: 10485.076
+    y: 243.93768
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.0
+    y: 2.0
+    z: 1.0
+  }
+}
+instances {
+  id: "snail11"
+  prototype: "/game/snail.go"
+  position {
+    x: 10675.459
+    y: 243.93768
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.0
+    y: 2.0
+    z: 1.0
+  }
+}
+instances {
+  id: "snail12"
+  prototype: "/game/snail.go"
+  position {
+    x: 14707.853
+    y: 243.93768
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.0
+    y: 2.0
+    z: 1.0
+  }
+}
+instances {
+  id: "snail13"
+  prototype: "/game/snail.go"
+  position {
+    x: 14898.235
+    y: 243.93768
     z: 0.0
   }
   rotation {
@@ -463,7 +803,7 @@ instances {
   id: "snail7"
   prototype: "/game/snail.go"
   position {
-    x: 7637.1772
+    x: 7578.17
     y: 243.93768
     z: 0.0
   }
@@ -479,6 +819,238 @@ instances {
     z: 1.0
   }
 }
+instances {
+  id: "snail8"
+  prototype: "/game/snail.go"
+  position {
+    x: 10871.199
+    y: 243.93768
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.0
+    y: 2.0
+    z: 1.0
+  }
+}
+instances {
+  id: "snail9"
+  prototype: "/game/snail.go"
+  position {
+    x: 11061.582
+    y: 243.93768
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.0
+    y: 2.0
+    z: 1.0
+  }
+}
+instances {
+  id: "flag_goal"
+  prototype: "/game/flag_goal.go"
+  position {
+    x: 17296.736
+    y: 244.78322
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "fireworks1"
+  prototype: "/game/fireworks/fireworks_fire.go"
+  position {
+    x: 17168.348
+    y: 809.2642
+    z: 0.5
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "fireworks2"
+  prototype: "/game/fireworks/fireworks_fire.go"
+  position {
+    x: 16888.95
+    y: 675.9145
+    z: 0.5
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "script"
+    properties {
+      id: "delay"
+      value: "2.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "fireworks3"
+  prototype: "/game/fireworks/fireworks_stars.go"
+  position {
+    x: 17523.947
+    y: 599.7146
+    z: 0.5
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "script"
+    properties {
+      id: "delay"
+      value: "0.25"
+      type: PROPERTY_TYPE_NUMBER
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "fireworks4"
+  prototype: "/game/fireworks/fireworks_fire.go"
+  position {
+    x: 17327.098
+    y: 1069.6139
+    z: 0.5
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "script"
+    properties {
+      id: "delay"
+      value: "0.5"
+      type: PROPERTY_TYPE_NUMBER
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "fireworks5"
+  prototype: "/game/fireworks/fireworks_stars.go"
+  position {
+    x: 17861.984
+    y: 818.7403
+    z: 0.5
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "script"
+    properties {
+      id: "delay"
+      value: "1.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "sounds"
+  prototype: "/game/sounds.go"
+  position {
+    x: 12913.661
+    y: 843.2691
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+collection_instances {
+  id: "player"
+  collection: "/game/player/player.collection"
+  position {
+    x: 16417.844
+    y: 254.72397
+    z: 0.5
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
 scale_along_z: 0
 embedded_instances {
   id: "bg"
@@ -487,7 +1059,10 @@ embedded_instances {
   children: "hill11"
   children: "hill12"
   children: "hill13"
+  children: "hill14"
   children: "hill15"
+  children: "hill16"
+  children: "hill17"
   children: "hill2"
   children: "hill3"
   children: "hill4"
@@ -534,7 +1109,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Hill 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -589,7 +1164,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Hill 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -644,7 +1219,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Hill 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -699,7 +1274,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Hill 9\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -754,7 +1329,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Hill 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -790,6 +1365,61 @@ embedded_instances {
   }
 }
 embedded_instances {
+  id: "hill14"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
+  "default_animation: \\\"Hill 4\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: -0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 16206.146
+    y: -129.13791
+    z: -0.2
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
   id: "hill15"
   data: "components {\n"
   "  id: \"script\"\n"
@@ -809,7 +1439,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Hill 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -845,6 +1475,116 @@ embedded_instances {
   }
 }
 embedded_instances {
+  id: "hill16"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
+  "default_animation: \\\"Hill 4\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: -0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 15748.921
+    y: -234.71286
+    z: -0.2
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "hill17"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
+  "default_animation: \\\"Hill 9\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 14872.591
+    y: -287.664
+    z: -0.3
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
   id: "hill2"
   data: "components {\n"
   "  id: \"script\"\n"
@@ -864,7 +1604,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Hill 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -919,7 +1659,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Hill 9\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -974,7 +1714,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Hill 9\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -1029,7 +1769,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Hill 9\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -1084,7 +1824,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Hill 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -1139,7 +1879,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Hill 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -1194,7 +1934,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Hill 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -1249,7 +1989,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Hill 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -1271,6 +2011,89 @@ embedded_instances {
     x: 6065.487
     y: -280.28574
     z: -0.2
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "boxes"
+  children: "coin_box1"
+  children: "coin_box10"
+  children: "coin_box11"
+  children: "coin_box12"
+  children: "coin_box13"
+  children: "coin_box2"
+  children: "coin_box3"
+  children: "coin_box4"
+  children: "coin_box5"
+  children: "coin_box6"
+  children: "coin_box7"
+  children: "coin_box8"
+  children: "coin_box9"
+  data: ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "camera"
+  data: "components {\n"
+  "  id: \"camera\"\n"
+  "  component: \"/game/player/camera.camera\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/player/camera.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 16164.261
+    y: 58.70902
+    z: 0.0
   }
   rotation {
     x: 0.0
@@ -1327,7 +2150,10 @@ embedded_instances {
   children: "cloud45"
   children: "cloud46"
   children: "cloud47"
+  children: "cloud48"
+  children: "cloud49"
   children: "cloud5"
+  children: "cloud50"
   children: "cloud6"
   children: "cloud7"
   children: "cloud8"
@@ -1370,7 +2196,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 2\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -1390,7 +2216,7 @@ embedded_instances {
   ""
   position {
     x: -147.3987
-    y: 351.3235
+    y: 419.7161
     z: -0.5
   }
   rotation {
@@ -1425,7 +2251,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 2\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -1480,7 +2306,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 2\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -1535,7 +2361,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 2\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -1590,7 +2416,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 2\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -1610,7 +2436,7 @@ embedded_instances {
   ""
   position {
     x: 2199.2197
-    y: 292.6644
+    y: 414.79407
     z: -0.5
   }
   rotation {
@@ -1645,7 +2471,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 3\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -1700,7 +2526,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 3\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -1720,7 +2546,7 @@ embedded_instances {
   ""
   position {
     x: 4008.5183
-    y: 268.5079
+    y: 473.68573
     z: -0.45
   }
   rotation {
@@ -1755,7 +2581,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -1810,7 +2636,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -1865,7 +2691,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -1920,7 +2746,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 2\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -1940,7 +2766,7 @@ embedded_instances {
   ""
   position {
     x: 6520.202
-    y: 310.9976
+    y: 447.7828
     z: -0.5
   }
   rotation {
@@ -1975,7 +2801,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 2\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -2030,7 +2856,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 2\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -2085,7 +2911,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 2\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -2140,7 +2966,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 2\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -2160,7 +2986,7 @@ embedded_instances {
   ""
   position {
     x: 5517.728
-    y: 252.51991
+    y: 428.38663
     z: -0.5
   }
   rotation {
@@ -2195,7 +3021,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 3\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -2250,7 +3076,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 3\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -2305,7 +3131,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -2360,7 +3186,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -2415,7 +3241,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -2435,7 +3261,7 @@ embedded_instances {
   ""
   position {
     x: 8227.582
-    y: 236.1462
+    y: 353.3907
     z: -0.4
   }
   rotation {
@@ -2470,7 +3296,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 2\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -2525,7 +3351,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 2\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -2545,7 +3371,7 @@ embedded_instances {
   ""
   position {
     x: 9315.731
-    y: 229.60483
+    y: 537.3716
     z: -0.5
   }
   rotation {
@@ -2580,7 +3406,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 2\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -2635,7 +3461,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 2\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -2690,7 +3516,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 2\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -2745,7 +3571,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 3\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -2800,7 +3626,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 3\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -2820,7 +3646,7 @@ embedded_instances {
   ""
   position {
     x: 10552.785
-    y: 295.85165
+    y: 457.0628
     z: -0.45
   }
   rotation {
@@ -2855,7 +3681,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -2910,7 +3736,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -2965,7 +3791,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -3020,7 +3846,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 2\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -3075,7 +3901,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 2\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -3095,7 +3921,7 @@ embedded_instances {
   ""
   position {
     x: 12369.115
-    y: 329.86517
+    y: 525.27264
     z: -0.5
   }
   rotation {
@@ -3130,7 +3956,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 2\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -3185,7 +4011,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 2\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -3240,7 +4066,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 2\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -3295,7 +4121,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 3\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -3350,7 +4176,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 3\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -3370,7 +4196,7 @@ embedded_instances {
   ""
   position {
     x: 13606.168
-    y: 396.112
+    y: 542.6676
     z: -0.45
   }
   rotation {
@@ -3405,7 +4231,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -3460,7 +4286,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -3515,7 +4341,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -3535,7 +4361,7 @@ embedded_instances {
   ""
   position {
     x: 14506.724
-    y: 351.08423
+    y: 551.3769
     z: -0.4
   }
   rotation {
@@ -3570,7 +4396,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 2\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -3589,9 +4415,119 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 16117.852
-    y: 438.60165
+    x: 15090.147
+    y: 184.27084
     z: -0.5
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "cloud48"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
+  "default_animation: \\\"Clouds 4\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 14753.009
+    y: 84.63527
+    z: -0.4
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "cloud49"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
+  "default_animation: \\\"Clouds 4\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 15420.239
+    y: 252.46614
+    z: -0.4
   }
   rotation {
     x: 0.0
@@ -3625,7 +4561,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 3\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -3661,6 +4597,61 @@ embedded_instances {
   }
 }
 embedded_instances {
+  id: "cloud50"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
+  "default_animation: \\\"Clouds 2\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 16003.662
+    y: 85.65276
+    z: -0.5
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
   id: "cloud6"
   data: "components {\n"
   "  id: \"script\"\n"
@@ -3680,7 +4671,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 3\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -3735,7 +4726,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -3790,7 +4781,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -3845,7 +4836,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/backgrounds.atlas\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -3881,10 +4872,117 @@ embedded_instances {
   }
 }
 embedded_instances {
-  id: "level1"
+  id: "coins"
+  children: "coin1"
+  children: "coin10"
+  children: "coin11"
+  children: "coin12"
+  children: "coin13"
+  children: "coin14"
+  children: "coin15"
+  children: "coin2"
+  children: "coin3"
+  children: "coin4"
+  children: "coin5"
+  children: "coin6"
+  children: "coin7"
+  children: "coin8"
+  children: "coin9"
+  data: ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "enemies"
+  children: "slime1"
+  children: "slime2"
+  children: "snail1"
+  children: "snail10"
+  children: "snail11"
+  children: "snail12"
+  children: "snail13"
+  children: "snail2"
+  children: "snail3"
+  children: "snail4"
+  children: "snail5"
+  children: "snail6"
+  children: "snail7"
+  children: "snail8"
+  children: "snail9"
+  data: ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "level"
+  children: "fireworks1"
+  children: "fireworks2"
+  children: "fireworks3"
+  children: "fireworks4"
+  children: "fireworks5"
   data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/level.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "components {\n"
   "  id: \"tilemap\"\n"
   "  component: \"/game/level1/level1.tilemap\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"coinfactory\"\n"
+  "  type: \"factory\"\n"
+  "  data: \"prototype: \\\"/game/coin.go\\\"\\n"
+  "\"\n"
   "  position {\n"
   "    x: 0.0\n"
   "    y: 0.0\n"
@@ -3911,6 +5009,26 @@ embedded_instances {
   "linear_damping: 0.0\\n"
   "angular_damping: 0.0\\n"
   "locked_rotation: false\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"music\"\n"
+  "  type: \"sound\"\n"
+  "  data: \"sound: \\\"/assets/sounds/Bit_Coast.ogg\\\"\\n"
+  "looping: 1\\n"
+  "group: \\\"master\\\"\\n"
+  "gain: 1.0\\n"
   "\"\n"
   "  position {\n"
   "    x: 0.0\n"
