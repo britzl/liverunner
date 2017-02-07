@@ -54,7 +54,7 @@ embedded_instances {
   "  id: \"level2\"\n"
   "  type: \"collectionproxy\"\n"
   "  data: \"collection: \\\"/game/level2/level2.collection\\\"\\n"
-  "exclude: false\\n"
+  "exclude: true\\n"
   "\"\n"
   "  position {\n"
   "    x: 0.0\n"
