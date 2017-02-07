@@ -1,0 +1,48 @@
+go.property("speed", 100)
+go.property("active", false)
+
+local platformer = require "ludobits.m.platformer"
+
+local COLLISION_RESPONSE = hash("collision_response")
+local TRIGGER_RESPONSE = hash("trigger_response")
+local GROUND = hash("ground")
+local ACTIVATOR = hash("activator")
+
+function init(self)
+	self.platformer = platformer.create({ hash("ground") })
+end
+
+function final(self)
+    -- Add finalization code here
+    -- Remove this function if not needed
+end
+
+function update(self, dt)
+	self.platformer.update(dt)
+	sprite.set_hflip("#sprite", self.platformer.velocity.x > 0)
+end
+
+function on_message(self, message_id, message, sender)
+	self.platformer.on_message(message_id, message, sender)
+	if message_id == COLLISION_RESPONSE then
+		if self.platformer.wall_contact then
+			self.speed = -self.speed
+			self.platformer.left(self.speed)
+		end
+	elseif message_id == TRIGGER_RESPONSE then
+		if message.group == ACTIVATOR and not self.active then
+			self.active = true
+			self.platformer.left(self.speed)
+		end
+	end
+end
+
+function on_input(self, action_id, action)
+    -- Add input-handling code here
+    -- Remove this function if not needed
+end
+
+function on_reload(self)
+    -- Add reload-handling code here
+    -- Remove this function if not needed
+end

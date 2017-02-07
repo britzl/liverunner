@@ -1,7 +1,7 @@
-local UPDATE_DISTANCE = hash("update_distance")
+local UPDATE_COINS = hash("update_coins")
 
 function init(self)
-	self.distance_node = gui.get_node("distance")
+	self.coins_node = gui.get_node("coins")
 end
 
 function final(self)
@@ -15,8 +15,8 @@ function update(self, dt)
 end
 
 function on_message(self, message_id, message, sender)
-	if message_id == UPDATE_DISTANCE then
-		gui.set_text(self.distance_node, tostring(math.floor(message.distance)) .. " m")
+	if message_id == UPDATE_COINS then
+		gui.set_text(self.coins_node, tostring(message.coins))
 	end
 end
 
