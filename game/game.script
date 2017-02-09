@@ -7,18 +7,56 @@ function init(self)
 	
 	local level = 1
 	flow(function()
+		local level_proxy = "#level1"
 		while true do
-			local proxy = "#level"..tostring(level)
-			live_update.load_missing_resources(proxy)
-			local message_id, message, sender = flow.until_message(hash("resources_loaded"), hash("resources_missing"))
-			if message_id == hash("resources_missing") then
-				print("Unable to load missing resources")
+		
+			--
+			-- Load level and wait until it is completed
+			--
+			flow.load(level_proxy)
+			flow.until_message(hash("level_completed"))
+			msg.post("#loading", "show", { text = ("Level %d\n\nCompleted!"):format(level), button = "PLAY" })
+			flow.until_message(hash("popup_closed"))
+			msg.post("#loading", "hide")
+			flow.delay(1)
+
+			--
+			-- Next level, do we need to load any missing resources?
+			--
+			level = math.min(2, level + 1)
+			local next_level_proxy = "#level"..tostring(level)
+			local missing_resource_count = live_update.missing_resource_count(next_level_proxy)
+			print("missing", missing_resource_count)
+			if missing_resource_count > 0 then
+				msg.post("#loading", "show", { text = ("Level %d\n\nMissing resources: %d"):format(level, missing_resource_count), button = "LOAD" })
 			else
-				flow.load(proxy)
-				local message_id, message, sender = flow.until_message(hash("level_completed"), hash("level_failed"))
-				flow.unload(proxy)
-				level = math.min(2, level + 1)
+				print("calling show")
+				msg.post("#loading", "show", { text = ("Level %d\n\nNo missing resources!"):format(level), button = "PLAY" })
 			end
+			flow.until_message(hash("popup_closed"))
+			msg.post("#loading", "hide")
+
+			--
+			-- Try to load missing resources?
+			--
+			while missing_resource_count > 0 do
+				live_update.load_missing_resources(next_level_proxy)
+				local message_id = flow.until_message(hash("resources_loaded"), hash("resources_missing"))
+				if message_id == hash("resources_missing") then
+					msg.post("#loading", "show", { text = ("Level %d\n\nUnable to load missing resources!"):format(level), button = "RETRY" })
+					flow.until_message(hash("popup_closed"))
+					msg.post("#loading", "hide")
+				end
+				missing_resource_count = live_update.missing_resource_count(next_level_proxy)
+			end
+			
+			--
+			-- Unload current level
+			--
+			if level_proxy then
+				flow.unload(level_proxy)
+			end
+			level_proxy = next_level_proxy
 		end
 	end)
 end

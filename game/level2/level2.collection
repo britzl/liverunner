@@ -20,86 +20,6 @@ instances {
   }
 }
 instances {
-  id: "coin_box10"
-  prototype: "/game/coin_box.go"
-  position {
-    x: 10464.102
-    y: 735.3
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin_box11"
-  prototype: "/game/coin_box.go"
-  position {
-    x: 14314.399
-    y: 735.3
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin_box12"
-  prototype: "/game/coin_box.go"
-  position {
-    x: 14246.109
-    y: 735.3
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin_box13"
-  prototype: "/game/coin_box.go"
-  position {
-    x: 5775.0
-    y: 525.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
   id: "coin_box2"
   prototype: "/game/coin_box.go"
   position {
@@ -120,30 +40,10 @@ instances {
   }
 }
 instances {
-  id: "coin_box3"
-  prototype: "/game/coin_box.go"
-  position {
-    x: 7386.4883
-    y: 735.5922
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
   id: "coin_box4"
   prototype: "/game/coin_box.go"
   position {
-    x: 7875.0
+    x: 7700.687
     y: 525.0
     z: 0.0
   }
@@ -163,8 +63,8 @@ instances {
   id: "coin_box5"
   prototype: "/game/coin_box.go"
   position {
-    x: 8435.025
-    y: 525.0
+    x: 6270.6406
+    y: 2086.5527
     z: 0.0
   }
   rotation {
@@ -183,8 +83,8 @@ instances {
   id: "coin_box6"
   prototype: "/game/coin_box.go"
   position {
-    x: 8645.325
-    y: 525.0
+    x: 6480.9404
+    y: 2086.5527
     z: 0.0
   }
   rotation {
@@ -203,8 +103,8 @@ instances {
   id: "coin_box7"
   prototype: "/game/coin_box.go"
   position {
-    x: 8645.325
-    y: 735.3
+    x: 6480.9404
+    y: 2296.8528
     z: 0.0
   }
   rotation {
@@ -223,28 +123,8 @@ instances {
   id: "coin_box8"
   prototype: "/game/coin_box.go"
   position {
-    x: 8854.464
-    y: 525.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin_box9"
-  prototype: "/game/coin_box.go"
-  position {
-    x: 10395.8125
-    y: 735.3
+    x: 6690.079
+    y: 2086.5527
     z: 0.0
   }
   rotation {
@@ -520,6 +400,186 @@ instances {
   }
 }
 instances {
+  id: "coin21"
+  prototype: "/game/coin.go"
+  position {
+    x: 4363.84
+    y: 1717.2834
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin22"
+  prototype: "/game/coin.go"
+  position {
+    x: 4454.123
+    y: 1805.7609
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin23"
+  prototype: "/game/coin.go"
+  position {
+    x: 4547.1147
+    y: 1805.7609
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin24"
+  prototype: "/game/coin.go"
+  position {
+    x: 4363.84
+    y: 1893.3354
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin25"
+  prototype: "/game/coin.go"
+  position {
+    x: 4454.123
+    y: 1893.3354
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin26"
+  prototype: "/game/coin.go"
+  position {
+    x: 4547.1147
+    y: 1893.3354
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin27"
+  prototype: "/game/coin.go"
+  position {
+    x: 4363.84
+    y: 1982.2655
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin28"
+  prototype: "/game/coin.go"
+  position {
+    x: 4454.123
+    y: 1982.2655
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin29"
+  prototype: "/game/coin.go"
+  position {
+    x: 4547.1147
+    y: 1982.2655
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
   id: "coin3"
   prototype: "/game/coin.go"
   position {
@@ -540,11 +600,231 @@ instances {
   }
 }
 instances {
+  id: "coin30"
+  prototype: "/game/coin.go"
+  position {
+    x: 4363.84
+    y: 2068.264
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin31"
+  prototype: "/game/coin.go"
+  position {
+    x: 4454.123
+    y: 2068.264
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin32"
+  prototype: "/game/coin.go"
+  position {
+    x: 4544.1216
+    y: 1030.5187
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin33"
+  prototype: "/game/coin.go"
+  position {
+    x: 4547.1147
+    y: 2068.264
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin34"
+  prototype: "/game/coin.go"
+  position {
+    x: 4475.067
+    y: 947.6527
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin35"
+  prototype: "/game/coin.go"
+  position {
+    x: 4406.0117
+    y: 867.08844
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin36"
+  prototype: "/game/coin.go"
+  position {
+    x: 4468.161
+    y: 1117.9885
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin37"
+  prototype: "/game/coin.go"
+  position {
+    x: 4385.295
+    y: 1198.5527
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin38"
+  prototype: "/game/coin.go"
+  position {
+    x: 4454.123
+    y: 1717.2834
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin39"
+  prototype: "/game/coin.go"
+  position {
+    x: 4547.1147
+    y: 1717.2834
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
   id: "coin4"
   prototype: "/game/coin.go"
   position {
     x: 1909.753
     y: 765.7643
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin40"
+  prototype: "/game/coin.go"
+  position {
+    x: 4363.84
+    y: 1805.7609
     z: 0.0
   }
   rotation {
@@ -685,6 +965,66 @@ instances {
   position {
     x: 2051.2703
     y: 790.01416
+    z: 0.5
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "bee3"
+  prototype: "/game/bee.go"
+  position {
+    x: 5450.235
+    y: 1683.5089
+    z: 0.5
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "bee4"
+  prototype: "/game/bee.go"
+  position {
+    x: 6150.2925
+    y: 1269.0011
+    z: 0.5
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "bee5"
+  prototype: "/game/bee.go"
+  position {
+    x: 3543.4985
+    y: 909.76086
     z: 0.5
   }
   rotation {
@@ -1139,18 +1479,12 @@ embedded_instances {
 embedded_instances {
   id: "boxes"
   children: "coin_box1"
-  children: "coin_box10"
-  children: "coin_box11"
-  children: "coin_box12"
-  children: "coin_box13"
   children: "coin_box2"
-  children: "coin_box3"
   children: "coin_box4"
   children: "coin_box5"
   children: "coin_box6"
   children: "coin_box7"
   children: "coin_box8"
-  children: "coin_box9"
   data: ""
   position {
     x: 0.0
@@ -1252,20 +1586,13 @@ embedded_instances {
   children: "cloud35"
   children: "cloud36"
   children: "cloud37"
+  children: "cloud38"
   children: "cloud39"
-  children: "cloud4"
   children: "cloud40"
   children: "cloud41"
   children: "cloud42"
   children: "cloud43"
-  children: "cloud44"
-  children: "cloud45"
-  children: "cloud46"
-  children: "cloud47"
-  children: "cloud48"
-  children: "cloud49"
   children: "cloud5"
-  children: "cloud50"
   children: "cloud6"
   children: "cloud7"
   children: "cloud8"
@@ -2427,8 +2754,8 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 9745.96
-    y: 325.67526
+    x: 4514.8438
+    y: 1089.9994
     z: -0.5
   }
   rotation {
@@ -2482,8 +2809,8 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 9315.731
-    y: 537.3716
+    x: 5492.256
+    y: 1039.8756
     z: -0.5
   }
   rotation {
@@ -2592,8 +2919,8 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 10293.144
-    y: 179.48112
+    x: 3942.5981
+    y: 1303.4589
     z: -0.5
   }
   rotation {
@@ -2629,7 +2956,7 @@ embedded_instances {
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
   "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
-  "default_animation: \\\"Clouds 2\\\"\\n"
+  "default_animation: \\\"Clouds 3\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
   "\"\n"
@@ -2647,9 +2974,9 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 8743.486
-    y: 320.00812
-    z: -0.5
+    x: 4951.805
+    y: 868.3969
+    z: -0.45
   }
   rotation {
     x: 0.0
@@ -2702,8 +3029,8 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 9790.095
-    y: 27.149677
+    x: 5751.8965
+    y: 1156.2462
     z: -0.45
   }
   rotation {
@@ -2739,7 +3066,7 @@ embedded_instances {
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
   "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
-  "default_animation: \\\"Clouds 3\\\"\\n"
+  "default_animation: \\\"Clouds 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
   "\"\n"
@@ -2757,9 +3084,9 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 10552.785
-    y: 457.0628
-    z: -0.45
+    x: 4101.2183
+    y: 930.4247
+    z: -0.4
   }
   rotation {
     x: 0.0
@@ -2812,8 +3139,8 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 9001.373
-    y: 136.20766
+    x: 6112.0625
+    y: 866.1804
     z: -0.4
   }
   rotation {
@@ -2867,8 +3194,8 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 10786.11
-    y: 82.993
+    x: 6652.452
+    y: 1228.4629
     z: -0.4
   }
   rotation {
@@ -2904,7 +3231,7 @@ embedded_instances {
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
   "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
-  "default_animation: \\\"Clouds 4\\\"\\n"
+  "default_animation: \\\"Clouds 2\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
   "\"\n"
@@ -2922,9 +3249,9 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 11453.341
-    y: 250.82387
-    z: -0.4
+    x: 830.3292
+    y: 1126.8445
+    z: -0.5
   }
   rotation {
     x: 0.0
@@ -2977,8 +3304,63 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 13064.469
-    y: 338.3413
+    x: 1807.7413
+    y: 1076.7208
+    z: -0.5
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "cloud38"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
+  "default_animation: \\\"Clouds 2\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 258.08362
+    y: 1340.304
     z: -0.5
   }
   rotation {
@@ -3014,7 +3396,7 @@ embedded_instances {
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
   "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
-  "default_animation: \\\"Clouds 2\\\"\\n"
+  "default_animation: \\\"Clouds 3\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
   "\"\n"
@@ -3032,64 +3414,9 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 12369.115
-    y: 525.27264
-    z: -0.5
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-embedded_instances {
-  id: "cloud4"
-  data: "components {\n"
-  "  id: \"script\"\n"
-  "  component: \"/game/parallax.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
-  "default_animation: \\\"Clouds 2\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: -1149.8727
-    y: 292.84583
-    z: -0.5
+    x: 1267.2906
+    y: 905.242
+    z: -0.45
   }
   rotation {
     x: 0.0
@@ -3124,7 +3451,7 @@ embedded_instances {
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
   "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
-  "default_animation: \\\"Clouds 2\\\"\\n"
+  "default_animation: \\\"Clouds 3\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
   "\"\n"
@@ -3142,9 +3469,9 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 13346.527
-    y: 279.7415
-    z: -0.5
+    x: 2067.382
+    y: 1193.0913
+    z: -0.45
   }
   rotation {
     x: 0.0
@@ -3179,7 +3506,7 @@ embedded_instances {
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
   "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
-  "default_animation: \\\"Clouds 2\\\"\\n"
+  "default_animation: \\\"Clouds 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
   "\"\n"
@@ -3197,9 +3524,9 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 11796.87
-    y: 420.26846
-    z: -0.5
+    x: 416.70374
+    y: 967.26984
+    z: -0.4
   }
   rotation {
     x: 0.0
@@ -3234,7 +3561,7 @@ embedded_instances {
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
   "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
-  "default_animation: \\\"Clouds 3\\\"\\n"
+  "default_animation: \\\"Clouds 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
   "\"\n"
@@ -3252,9 +3579,9 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 12843.479
-    y: 127.41003
-    z: -0.45
+    x: 2427.548
+    y: 903.0256
+    z: -0.4
   }
   rotation {
     x: 0.0
@@ -3289,61 +3616,6 @@ embedded_instances {
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
   "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
-  "default_animation: \\\"Clouds 3\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 13606.168
-    y: 542.6676
-    z: -0.45
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-embedded_instances {
-  id: "cloud44"
-  data: "components {\n"
-  "  id: \"script\"\n"
-  "  component: \"/game/parallax.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
   "default_animation: \\\"Clouds 4\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
@@ -3362,283 +3634,8 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 12054.756
-    y: 236.468
-    z: -0.4
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-embedded_instances {
-  id: "cloud45"
-  data: "components {\n"
-  "  id: \"script\"\n"
-  "  component: \"/game/parallax.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
-  "default_animation: \\\"Clouds 4\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 13839.494
-    y: 183.25334
-    z: -0.4
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-embedded_instances {
-  id: "cloud46"
-  data: "components {\n"
-  "  id: \"script\"\n"
-  "  component: \"/game/parallax.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
-  "default_animation: \\\"Clouds 4\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 14506.724
-    y: 551.3769
-    z: -0.4
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-embedded_instances {
-  id: "cloud47"
-  data: "components {\n"
-  "  id: \"script\"\n"
-  "  component: \"/game/parallax.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
-  "default_animation: \\\"Clouds 2\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 15090.147
-    y: 184.27084
-    z: -0.5
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-embedded_instances {
-  id: "cloud48"
-  data: "components {\n"
-  "  id: \"script\"\n"
-  "  component: \"/game/parallax.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
-  "default_animation: \\\"Clouds 4\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 14753.009
-    y: 84.63527
-    z: -0.4
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-embedded_instances {
-  id: "cloud49"
-  data: "components {\n"
-  "  id: \"script\"\n"
-  "  component: \"/game/parallax.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
-  "default_animation: \\\"Clouds 4\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 15420.239
-    y: 252.46614
+    x: 2967.9377
+    y: 1265.308
     z: -0.4
   }
   rotation {
@@ -3695,61 +3692,6 @@ embedded_instances {
     x: -144.73744
     y: 147.84271
     z: -0.45
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-embedded_instances {
-  id: "cloud50"
-  data: "components {\n"
-  "  id: \"script\"\n"
-  "  component: \"/game/parallax.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
-  "default_animation: \\\"Clouds 2\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 16003.662
-    y: 85.65276
-    z: -0.5
   }
   rotation {
     x: 0.0
@@ -3998,8 +3940,28 @@ embedded_instances {
   children: "coin19"
   children: "coin2"
   children: "coin20"
+  children: "coin21"
+  children: "coin22"
+  children: "coin23"
+  children: "coin24"
+  children: "coin25"
+  children: "coin26"
+  children: "coin27"
+  children: "coin28"
+  children: "coin29"
   children: "coin3"
+  children: "coin30"
+  children: "coin31"
+  children: "coin32"
+  children: "coin33"
+  children: "coin34"
+  children: "coin35"
+  children: "coin36"
+  children: "coin37"
+  children: "coin38"
+  children: "coin39"
   children: "coin4"
+  children: "coin40"
   children: "coin5"
   children: "coin6"
   children: "coin7"
@@ -4027,6 +3989,9 @@ embedded_instances {
   id: "enemies"
   children: "bee1"
   children: "bee2"
+  children: "bee3"
+  children: "bee4"
+  children: "bee5"
   data: ""
   position {
     x: 0.0

@@ -1,6 +1,6 @@
 [project]
 title = Live Runner
-dependencies = https://github.com/britzl/ludobits/archive/1.1.zip
+dependencies = https://github.com/britzl/ludobits/archive/1.1.zip, https://github.com/andsve/dirtylarry/archive/master.zip
 
 [bootstrap]
 main_collection = /game/game.collectionc

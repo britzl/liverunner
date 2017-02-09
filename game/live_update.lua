@@ -1,14 +1,16 @@
 local M = {}
 
 
-function M.load_missing_resources(proxy)
-	local manifest = resource.get_current_manifest()
+function M.missing_resource_count(proxy)
+	return #collectionproxy.missing_resources(proxy)
+end
 
+function M.load_missing_resources(proxy)
 	local missing_resources = collectionproxy.missing_resources(proxy)
-	pprint(missing_resources)
 	local missing_resource_count = #missing_resources
 
 	if missing_resource_count > 0 then
+		local manifest = resource.get_current_manifest()
 		print("There are missing resources", missing_resource_count)
 		local http_request_count = missing_resource_count
 		
