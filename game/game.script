@@ -32,7 +32,7 @@ function init(self)
 				--
 				repeat
 					local loading = true
-					live_update.load_missing_resources(next_level_proxy, "http://127.0.0.1:8000/defold/", function(status)
+					live_update.load_missing_resources(next_level_proxy, "https://britzl.github.io/liverunner/defold/", function(status)
 						if status.done then
 							if status.failed > 0 then
 								show_popup(("Level %d\n\nUnable to load %d missing resources!"):format(next_level, status.failed), "RETRY")
