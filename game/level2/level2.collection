@@ -644,7 +644,7 @@ instances {
   prototype: "/game/coin.go"
   position {
     x: 4544.1216
-    y: 1030.5187
+    y: 889.2719
     z: 0.0
   }
   rotation {
@@ -684,7 +684,7 @@ instances {
   prototype: "/game/coin.go"
   position {
     x: 4475.067
-    y: 947.6527
+    y: 806.40594
     z: 0.0
   }
   rotation {
@@ -704,7 +704,7 @@ instances {
   prototype: "/game/coin.go"
   position {
     x: 4406.0117
-    y: 867.08844
+    y: 725.8417
     z: 0.0
   }
   rotation {
@@ -724,7 +724,7 @@ instances {
   prototype: "/game/coin.go"
   position {
     x: 4468.161
-    y: 1117.9885
+    y: 976.74176
     z: 0.0
   }
   rotation {
@@ -744,7 +744,7 @@ instances {
   prototype: "/game/coin.go"
   position {
     x: 4385.295
-    y: 1198.5527
+    y: 1057.3059
     z: 0.0
   }
   rotation {
@@ -825,6 +825,86 @@ instances {
   position {
     x: 4363.84
     y: 1805.7609
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin41"
+  prototype: "/game/coin.go"
+  position {
+    x: 4538.758
+    y: 1211.1
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin42"
+  prototype: "/game/coin.go"
+  position {
+    x: 4469.703
+    y: 1128.234
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin43"
+  prototype: "/game/coin.go"
+  position {
+    x: 4468.161
+    y: 1280.6906
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin44"
+  prototype: "/game/coin.go"
+  position {
+    x: 4385.295
+    y: 1361.2548
     z: 0.0
   }
   rotation {
@@ -1003,7 +1083,7 @@ instances {
   id: "bee4"
   prototype: "/game/bee.go"
   position {
-    x: 6150.2925
+    x: 5709.816
     y: 1269.0011
     z: 0.5
   }
@@ -4002,6 +4082,10 @@ embedded_instances {
   children: "coin39"
   children: "coin4"
   children: "coin40"
+  children: "coin41"
+  children: "coin42"
+  children: "coin43"
+  children: "coin44"
   children: "coin5"
   children: "coin6"
   children: "coin7"

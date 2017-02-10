@@ -1,4 +1,4 @@
-name: "level1"
+name: "level3"
 instances {
   id: "coin_box1"
   prototype: "/game/coin_box.go"
@@ -23,8 +23,108 @@ instances {
   id: "coin_box2"
   prototype: "/game/coin_box.go"
   position {
-    x: 4713.2827
+    x: 5285.1885
     y: 664.8466
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin_box4"
+  prototype: "/game/coin_box.go"
+  position {
+    x: 7984.4043
+    y: 525.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin_box5"
+  prototype: "/game/coin_box.go"
+  position {
+    x: 5285.0
+    y: 1295.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin_box6"
+  prototype: "/game/coin_box.go"
+  position {
+    x: 5215.0
+    y: 1295.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin_box7"
+  prototype: "/game/coin_box.go"
+  position {
+    x: 5355.0
+    y: 1295.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin_box8"
+  prototype: "/game/coin_box.go"
+  position {
+    x: 6649.32
+    y: 1444.6962
     z: 0.0
   }
   rotation {
@@ -43,8 +143,8 @@ instances {
   id: "coin1"
   prototype: "/game/coin.go"
   position {
-    x: 1654.3768
-    y: 602.11285
+    x: 2881.0488
+    y: 923.3751
     z: 0.0
   }
   rotation {
@@ -63,8 +163,8 @@ instances {
   id: "coin10"
   prototype: "/game/coin.go"
   position {
-    x: 6246.4595
-    y: 892.75385
+    x: 4228.7354
+    y: 1167.9838
     z: 0.0
   }
   rotation {
@@ -83,8 +183,8 @@ instances {
   id: "coin11"
   prototype: "/game/coin.go"
   position {
-    x: 6149.608
-    y: 788.6385
+    x: 4393.4204
+    y: 1014.4819
     z: 0.0
   }
   rotation {
@@ -103,8 +203,8 @@ instances {
   id: "coin12"
   prototype: "/game/coin.go"
   position {
-    x: 6062.442
-    y: 1113.091
+    x: 7013.2954
+    y: 1123.3151
     z: 0.0
   }
   rotation {
@@ -123,8 +223,8 @@ instances {
   id: "coin13"
   prototype: "/game/coin.go"
   position {
-    x: 6161.7144
-    y: 1006.5543
+    x: 6930.05
+    y: 1204.4265
     z: 0.0
   }
   rotation {
@@ -143,8 +243,8 @@ instances {
   id: "coin14"
   prototype: "/game/coin.go"
   position {
-    x: 6161.7144
-    y: 1235.6289
+    x: 7094.735
+    y: 1050.9246
     z: 0.0
   }
   rotation {
@@ -163,8 +263,88 @@ instances {
   id: "coin15"
   prototype: "/game/coin.go"
   position {
-    x: 6267.9517
-    y: 1365.1058
+    x: 7259.2837
+    y: 886.4376
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin16"
+  prototype: "/game/coin.go"
+  position {
+    x: 7176.0376
+    y: 967.549
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin17"
+  prototype: "/game/coin.go"
+  position {
+    x: 7340.723
+    y: 814.04706
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin18"
+  prototype: "/game/coin.go"
+  position {
+    x: 7509.827
+    y: 654.1155
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin19"
+  prototype: "/game/coin.go"
+  position {
+    x: 7426.5815
+    y: 735.22687
     z: 0.0
   }
   rotation {
@@ -183,8 +363,88 @@ instances {
   id: "coin2"
   prototype: "/game/coin.go"
   position {
-    x: 2047.8632
-    y: 929.1946
+    x: 2799.6096
+    y: 995.7657
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin20"
+  prototype: "/game/coin.go"
+  position {
+    x: 7591.2666
+    y: 581.7249
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin21"
+  prototype: "/game/coin.go"
+  position {
+    x: 7742.1494
+    y: 426.34866
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin22"
+  prototype: "/game/coin.go"
+  position {
+    x: 7658.9033
+    y: 507.46005
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin23"
+  prototype: "/game/coin.go"
+  position {
+    x: 7823.589
+    y: 353.95813
     z: 0.0
   }
   rotation {
@@ -203,8 +463,8 @@ instances {
   id: "coin3"
   prototype: "/game/coin.go"
   position {
-    x: 1978.8081
-    y: 846.32855
+    x: 2716.3635
+    y: 1076.8771
     z: 0.0
   }
   rotation {
@@ -223,8 +483,8 @@ instances {
   id: "coin4"
   prototype: "/game/coin.go"
   position {
-    x: 1909.753
-    y: 765.7643
+    x: 2786.8025
+    y: 1162.2576
     z: 0.0
   }
   rotation {
@@ -243,8 +503,8 @@ instances {
   id: "coin5"
   prototype: "/game/coin.go"
   position {
-    x: 1971.9026
-    y: 1016.66437
+    x: 2867.9138
+    y: 1232.6964
     z: 0.0
   }
   rotation {
@@ -263,8 +523,8 @@ instances {
   id: "coin6"
   prototype: "/game/coin.go"
   position {
-    x: 1889.0365
-    y: 1097.2286
+    x: 6352.746
+    y: 1178.0323
     z: 0.0
   }
   rotation {
@@ -283,8 +543,8 @@ instances {
   id: "coin7"
   prototype: "/game/coin.go"
   position {
-    x: 6246.4595
-    y: 478.78857
+    x: 6271.635
+    y: 1107.5935
     z: 0.0
   }
   rotation {
@@ -303,8 +563,8 @@ instances {
   id: "coin8"
   prototype: "/game/coin.go"
   position {
-    x: 6149.608
-    y: 592.5143
+    x: 6201.196
+    y: 1022.2131
     z: 0.0
   }
   rotation {
@@ -323,8 +583,8 @@ instances {
   id: "coin9"
   prototype: "/game/coin.go"
   position {
-    x: 6062.442
-    y: 691.78705
+    x: 4311.981
+    y: 1086.8724
     z: 0.0
   }
   rotation {
@@ -340,12 +600,12 @@ instances {
   }
 }
 instances {
-  id: "slime1"
-  prototype: "/game/slime.go"
+  id: "bee1"
+  prototype: "/game/bee.go"
   position {
-    x: 1594.7902
-    y: 237.8391
-    z: 0.0
+    x: 4682.455
+    y: 1445.2466
+    z: 0.5
   }
   rotation {
     x: 0.0
@@ -354,18 +614,18 @@ instances {
     w: 1.0
   }
   scale3 {
-    x: 2.0
-    y: 2.0
+    x: 1.0
+    y: 1.0
     z: 1.0
   }
 }
 instances {
-  id: "slime2"
-  prototype: "/game/slime.go"
+  id: "bee2"
+  prototype: "/game/bee.go"
   position {
-    x: 1775.0101
-    y: 237.8391
-    z: 0.0
+    x: 2592.2605
+    y: 820.87885
+    z: 0.5
   }
   rotation {
     x: 0.0
@@ -374,18 +634,18 @@ instances {
     w: 1.0
   }
   scale3 {
-    x: 2.0
-    y: 2.0
+    x: 1.0
+    y: 1.0
     z: 1.0
   }
 }
 instances {
-  id: "snail1"
-  prototype: "/game/snail.go"
+  id: "bee3"
+  prototype: "/game/bee.go"
   position {
-    x: 3319.6777
-    y: 241.92514
-    z: 0.0
+    x: 5286.3696
+    y: 548.8186
+    z: 0.5
   }
   rotation {
     x: 0.0
@@ -394,18 +654,18 @@ instances {
     w: 1.0
   }
   scale3 {
-    x: 2.0
-    y: 2.0
+    x: 1.0
+    y: 1.0
     z: 1.0
   }
 }
 instances {
-  id: "snail2"
-  prototype: "/game/snail.go"
+  id: "bee4"
+  prototype: "/game/bee.go"
   position {
-    x: 3756.4558
-    y: 241.92514
-    z: 0.0
+    x: 5293.5312
+    y: 1117.6248
+    z: 0.5
   }
   rotation {
     x: 0.0
@@ -414,18 +674,18 @@ instances {
     w: 1.0
   }
   scale3 {
-    x: 2.0
-    y: 2.0
+    x: 1.0
+    y: 1.0
     z: 1.0
   }
 }
 instances {
-  id: "snail3"
-  prototype: "/game/snail.go"
+  id: "bee5"
+  prototype: "/game/bee.go"
   position {
-    x: 3958.9756
-    y: 241.92514
-    z: 0.0
+    x: 3711.975
+    y: 1293.9445
+    z: 0.5
   }
   rotation {
     x: 0.0
@@ -434,18 +694,18 @@ instances {
     w: 1.0
   }
   scale3 {
-    x: 2.0
-    y: 2.0
+    x: 1.0
+    y: 1.0
     z: 1.0
   }
 }
 instances {
-  id: "snail6"
-  prototype: "/game/snail.go"
+  id: "bee6"
+  prototype: "/game/bee.go"
   position {
-    x: 7387.7876
-    y: 243.93768
-    z: 0.0
+    x: 5284.995
+    y: 1446.3013
+    z: 0.5
   }
   rotation {
     x: 0.0
@@ -454,18 +714,18 @@ instances {
     w: 1.0
   }
   scale3 {
-    x: 2.0
-    y: 2.0
+    x: 1.0
+    y: 1.0
     z: 1.0
   }
 }
 instances {
-  id: "snail9"
-  prototype: "/game/snail.go"
+  id: "bee7"
+  prototype: "/game/bee.go"
   position {
-    x: 6859.8
-    y: 243.93768
-    z: 0.0
+    x: 5284.7544
+    y: 800.5417
+    z: 0.5
   }
   rotation {
     x: 0.0
@@ -474,8 +734,28 @@ instances {
     w: 1.0
   }
   scale3 {
-    x: 2.0
-    y: 2.0
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "bee8"
+  prototype: "/game/bee.go"
+  position {
+    x: 7987.85
+    y: 413.95032
+    z: 0.5
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
     z: 1.0
   }
 }
@@ -483,7 +763,7 @@ instances {
   id: "flag_goal"
   prototype: "/game/flag_goal.go"
   position {
-    x: 9293.268
+    x: 9412.192
     y: 244.78322
     z: 0.0
   }
@@ -503,7 +783,7 @@ instances {
   id: "fireworks1"
   prototype: "/game/fireworks/fireworks_fire.go"
   position {
-    x: 9309.411
+    x: 9283.804
     y: 809.2642
     z: 0.5
   }
@@ -523,7 +803,7 @@ instances {
   id: "fireworks2"
   prototype: "/game/fireworks/fireworks_fire.go"
   position {
-    x: 9030.013
+    x: 9004.405
     y: 675.9145
     z: 0.5
   }
@@ -551,7 +831,7 @@ instances {
   id: "fireworks3"
   prototype: "/game/fireworks/fireworks_stars.go"
   position {
-    x: 9665.011
+    x: 9639.403
     y: 599.7146
     z: 0.5
   }
@@ -579,7 +859,7 @@ instances {
   id: "fireworks4"
   prototype: "/game/fireworks/fireworks_fire.go"
   position {
-    x: 9468.161
+    x: 9442.554
     y: 1069.6139
     z: 0.5
   }
@@ -607,7 +887,7 @@ instances {
   id: "fireworks5"
   prototype: "/game/fireworks/fireworks_stars.go"
   position {
-    x: 10003.048
+    x: 9977.44
     y: 818.7403
     z: 0.5
   }
@@ -655,7 +935,7 @@ collection_instances {
   id: "player"
   collection: "/game/player/player.collection"
   position {
-    x: 610.07275
+    x: 369.46854
     y: 254.72397
     z: 0.5
   }
@@ -674,21 +954,28 @@ collection_instances {
 scale_along_z: 0
 embedded_instances {
   id: "bg"
-  children: "hill1"
-  children: "hill10"
-  children: "hill11"
-  children: "hill2"
-  children: "hill3"
-  children: "hill4"
-  children: "hill5"
-  children: "hill6"
-  children: "hill7"
-  children: "hill8"
-  children: "hill9"
+  children: "mountain1"
+  children: "mountain10"
+  children: "mountain2"
+  children: "mountain3"
+  children: "mountain4"
+  children: "mountain5"
+  children: "mountain6"
+  children: "mountain7"
+  children: "mountain8"
+  children: "mountain9"
+  children: "tree1"
+  children: "tree2"
+  children: "tree3"
+  children: "tree4"
+  children: "tree5"
+  children: "tree6"
+  children: "tree7"
+  children: "tree8"
   data: ""
   position {
-    x: 1840.8414
-    y: 505.87158
+    x: 0.0
+    y: 0.0
     z: 0.0
   }
   rotation {
@@ -704,7 +991,7 @@ embedded_instances {
   }
 }
 embedded_instances {
-  id: "hill1"
+  id: "mountain1"
   data: "components {\n"
   "  id: \"script\"\n"
   "  component: \"/game/parallax.script\"\n"
@@ -723,8 +1010,888 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
-  "default_animation: \\\"Hill 4\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/snowypeaks.atlas\\\"\\n"
+  "default_animation: \\\"Mountain 5\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 848.0203
+    y: 544.2916
+    z: -0.55
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "mountain10"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/snowypeaks.atlas\\\"\\n"
+  "default_animation: \\\"Mountain 7\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 6888.3364
+    y: 391.37225
+    z: -0.5
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "mountain2"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/snowypeaks.atlas\\\"\\n"
+  "default_animation: \\\"Mountain 5\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 4004.7134
+    y: 544.2916
+    z: -0.55
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "mountain3"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/snowypeaks.atlas\\\"\\n"
+  "default_animation: \\\"Mountain 5\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 6287.5815
+    y: 544.2916
+    z: -0.55
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "mountain4"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/snowypeaks.atlas\\\"\\n"
+  "default_animation: \\\"Mountain 7\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 5112.0464
+    y: 257.78882
+    z: -0.5
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "mountain5"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/snowypeaks.atlas\\\"\\n"
+  "default_animation: \\\"Mountain 7\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 531.2587
+    y: 391.37225
+    z: -0.45
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "mountain6"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/snowypeaks.atlas\\\"\\n"
+  "default_animation: \\\"Mountain 8\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 4731.367
+    y: 380.2403
+    z: -0.5
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "mountain7"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/snowypeaks.atlas\\\"\\n"
+  "default_animation: \\\"Mountain 10\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: -155.68726\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 5675.904
+    y: 456.90915
+    z: -0.55
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "mountain8"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/snowypeaks.atlas\\\"\\n"
+  "default_animation: \\\"Mountain 10\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 1601.6945
+    y: 456.90915
+    z: -0.55
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "mountain9"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/snowypeaks.atlas\\\"\\n"
+  "default_animation: \\\"Mountain 10\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 7445.4
+    y: 456.90915
+    z: -0.55
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "tree1"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/snowypeaks.atlas\\\"\\n"
+  "default_animation: \\\"Christmas Tree 1\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 231.062
+    y: 402.22888
+    z: -0.1
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "tree2"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/snowypeaks.atlas\\\"\\n"
+  "default_animation: \\\"Christmas Tree 1\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 1091.5565
+    y: 402.22888
+    z: -0.1
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "tree3"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/snowypeaks.atlas\\\"\\n"
+  "default_animation: \\\"Christmas Tree 1\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 5477.248
+    y: 230.97289
+    z: -0.1
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "tree4"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/snowypeaks.atlas\\\"\\n"
+  "default_animation: \\\"Christmas Tree 1\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 7114.171
+    y: 402.22888
+    z: -0.1
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "tree5"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/snowypeaks.atlas\\\"\\n"
+  "default_animation: \\\"Christmas Tree 2\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 6388.276
+    y: 476.0487
+    z: -0.1
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "tree6"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/snowypeaks.atlas\\\"\\n"
+  "default_animation: \\\"Christmas Tree 5\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: -160.87683\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 5942.3276
+    y: 476.0487
+    z: -0.15
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "tree7"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/snowypeaks.atlas\\\"\\n"
+  "default_animation: \\\"Christmas Tree 5\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
   "\"\n"
@@ -742,9 +1909,9 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: -913.1385
-    y: -363.36462
-    z: -0.2
+    x: 7817.753
+    y: 433.28656
+    z: -0.15
   }
   rotation {
     x: 0.0
@@ -759,7 +1926,7 @@ embedded_instances {
   }
 }
 embedded_instances {
-  id: "hill10"
+  id: "tree8"
   data: "components {\n"
   "  id: \"script\"\n"
   "  component: \"/game/parallax.script\"\n"
@@ -778,14 +1945,14 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
-  "default_animation: \\\"Hill 4\\\"\\n"
+  "  data: \"tile_set: \\\"/assets/snowypeaks.atlas\\\"\\n"
+  "default_animation: \\\"Christmas Tree 6\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
   "\"\n"
   "  position {\n"
-  "    x: -0.0\n"
-  "    y: 0.0\n"
+  "    x: 0.0\n"
+  "    y: -24.435509\n"
   "    z: 0.0\n"
   "  }\n"
   "  rotation {\n"
@@ -797,504 +1964,9 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 6522.7124
-    y: -174.7108
-    z: -0.2
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-embedded_instances {
-  id: "hill11"
-  data: "components {\n"
-  "  id: \"script\"\n"
-  "  component: \"/game/parallax.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
-  "default_animation: \\\"Hill 4\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: -0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 6886.182
-    y: -382.408
-    z: -0.2
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-embedded_instances {
-  id: "hill2"
-  data: "components {\n"
-  "  id: \"script\"\n"
-  "  component: \"/game/parallax.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
-  "default_animation: \\\"Hill 4\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: -0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: -455.91318
-    y: -257.78967
-    z: -0.2
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-embedded_instances {
-  id: "hill3"
-  data: "components {\n"
-  "  id: \"script\"\n"
-  "  component: \"/game/parallax.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
-  "default_animation: \\\"Hill 9\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 1655.5178
-    y: -304.80582
-    z: -0.3
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-embedded_instances {
-  id: "hill4"
-  data: "components {\n"
-  "  id: \"script\"\n"
-  "  component: \"/game/parallax.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
-  "default_animation: \\\"Hill 9\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 6075.4644
-    y: -287.664
-    z: -0.3
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-embedded_instances {
-  id: "hill5"
-  data: "components {\n"
-  "  id: \"script\"\n"
-  "  component: \"/game/parallax.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
-  "default_animation: \\\"Hill 9\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 9133.293
-    y: -287.664
-    z: -0.3
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-embedded_instances {
-  id: "hill6"
-  data: "components {\n"
-  "  id: \"script\"\n"
-  "  component: \"/game/parallax.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
-  "default_animation: \\\"Hill 4\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: -0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 3926.206
-    y: -311.44034
-    z: -0.2
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-embedded_instances {
-  id: "hill7"
-  data: "components {\n"
-  "  id: \"script\"\n"
-  "  component: \"/game/parallax.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
-  "default_animation: \\\"Hill 4\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: -0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 4383.431
-    y: -205.86537
-    z: -0.2
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-embedded_instances {
-  id: "hill8"
-  data: "components {\n"
-  "  id: \"script\"\n"
-  "  component: \"/game/parallax.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
-  "default_animation: \\\"Hill 4\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: -0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 4746.9014
-    y: -413.56256
-    z: -0.2
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-embedded_instances {
-  id: "hill9"
-  data: "components {\n"
-  "  id: \"script\"\n"
-  "  component: \"/game/parallax.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
-  "default_animation: \\\"Hill 4\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: -0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 6065.487
-    y: -280.28574
-    z: -0.2
+    x: 8440.858
+    y: 500.48422
+    z: -0.15
   }
   rotation {
     x: 0.0
@@ -1312,6 +1984,11 @@ embedded_instances {
   id: "boxes"
   children: "coin_box1"
   children: "coin_box2"
+  children: "coin_box4"
+  children: "coin_box5"
+  children: "coin_box6"
+  children: "coin_box7"
+  children: "coin_box8"
   data: ""
   position {
     x: 0.0
@@ -1364,7 +2041,7 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 356.48975
+    x: 115.885605
     y: 58.70902
     z: 0.0
   }
@@ -1408,8 +2085,17 @@ embedded_instances {
   children: "cloud30"
   children: "cloud31"
   children: "cloud32"
+  children: "cloud33"
   children: "cloud34"
-  children: "cloud4"
+  children: "cloud35"
+  children: "cloud36"
+  children: "cloud37"
+  children: "cloud38"
+  children: "cloud39"
+  children: "cloud40"
+  children: "cloud41"
+  children: "cloud42"
+  children: "cloud43"
   children: "cloud5"
   children: "cloud6"
   children: "cloud7"
@@ -1900,7 +2586,7 @@ embedded_instances {
   "\"\n"
   "  position {\n"
   "    x: 0.0\n"
-  "    y: 0.0\n"
+  "    y: -155.68726\n"
   "    z: 0.0\n"
   "  }\n"
   "  rotation {\n"
@@ -2572,8 +3258,8 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 9745.96
-    y: 325.67526
+    x: 4514.8438
+    y: 1089.9994
     z: -0.5
   }
   rotation {
@@ -2627,8 +3313,8 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 9315.731
-    y: 537.3716
+    x: 5492.256
+    y: 1039.8756
     z: -0.5
   }
   rotation {
@@ -2737,8 +3423,8 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 10293.144
-    y: 179.48112
+    x: 3942.5981
+    y: 1303.4589
     z: -0.5
   }
   rotation {
@@ -2774,7 +3460,7 @@ embedded_instances {
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
   "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
-  "default_animation: \\\"Clouds 2\\\"\\n"
+  "default_animation: \\\"Clouds 3\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
   "\"\n"
@@ -2792,9 +3478,9 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 8743.486
-    y: 320.00812
-    z: -0.5
+    x: 4951.805
+    y: 868.3969
+    z: -0.45
   }
   rotation {
     x: 0.0
@@ -2847,9 +3533,64 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 9790.095
-    y: 27.149677
+    x: 5751.8965
+    y: 1156.2462
     z: -0.45
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "cloud33"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
+  "default_animation: \\\"Clouds 4\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 4101.2183
+    y: 930.4247
+    z: -0.4
   }
   rotation {
     x: 0.0
@@ -2902,8 +3643,8 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 9001.373
-    y: 136.20766
+    x: 6112.0625
+    y: 866.1804
     z: -0.4
   }
   rotation {
@@ -2919,7 +3660,62 @@ embedded_instances {
   }
 }
 embedded_instances {
-  id: "cloud4"
+  id: "cloud35"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
+  "default_animation: \\\"Clouds 4\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 6652.452
+    y: 1228.4629
+    z: -0.4
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "cloud36"
   data: "components {\n"
   "  id: \"script\"\n"
   "  component: \"/game/parallax.script\"\n"
@@ -2957,9 +3753,394 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: -1149.8727
-    y: 292.84583
+    x: 830.3292
+    y: 1126.8445
     z: -0.5
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "cloud37"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
+  "default_animation: \\\"Clouds 2\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 1807.7413
+    y: 1076.7208
+    z: -0.5
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "cloud38"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
+  "default_animation: \\\"Clouds 2\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 258.08362
+    y: 1340.304
+    z: -0.5
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "cloud39"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
+  "default_animation: \\\"Clouds 3\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 1267.2906
+    y: 905.242
+    z: -0.45
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "cloud40"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
+  "default_animation: \\\"Clouds 3\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 2067.382
+    y: 1193.0913
+    z: -0.45
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "cloud41"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
+  "default_animation: \\\"Clouds 4\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 416.70374
+    y: 967.26984
+    z: -0.4
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "cloud42"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
+  "default_animation: \\\"Clouds 4\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 2427.548
+    y: 903.0256
+    z: -0.4
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "cloud43"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/game/parallax.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/grassygreens.atlas\\\"\\n"
+  "default_animation: \\\"Clouds 4\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 2967.9377
+    y: 1265.308
+    z: -0.4
   }
   rotation {
     x: 0.0
@@ -3257,7 +4438,15 @@ embedded_instances {
   children: "coin13"
   children: "coin14"
   children: "coin15"
+  children: "coin16"
+  children: "coin17"
+  children: "coin18"
+  children: "coin19"
   children: "coin2"
+  children: "coin20"
+  children: "coin21"
+  children: "coin22"
+  children: "coin23"
   children: "coin3"
   children: "coin4"
   children: "coin5"
@@ -3285,13 +4474,14 @@ embedded_instances {
 }
 embedded_instances {
   id: "enemies"
-  children: "slime1"
-  children: "slime2"
-  children: "snail1"
-  children: "snail2"
-  children: "snail3"
-  children: "snail6"
-  children: "snail9"
+  children: "bee1"
+  children: "bee2"
+  children: "bee3"
+  children: "bee4"
+  children: "bee5"
+  children: "bee6"
+  children: "bee7"
+  children: "bee8"
   data: ""
   position {
     x: 0.0
@@ -3334,7 +4524,7 @@ embedded_instances {
   "}\n"
   "components {\n"
   "  id: \"tilemap\"\n"
-  "  component: \"/game/level1/level1.tilemap\"\n"
+  "  component: \"/game/level3/level3.tilemap\"\n"
   "  position {\n"
   "    x: 0.0\n"
   "    y: 0.0\n"
@@ -3367,7 +4557,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"collisionobject\"\n"
   "  type: \"collisionobject\"\n"
-  "  data: \"collision_shape: \\\"/game/level1/level1.tilemap\\\"\\n"
+  "  data: \"collision_shape: \\\"/game/level3/level3.tilemap\\\"\\n"
   "type: COLLISION_OBJECT_TYPE_STATIC\\n"
   "mass: 0.0\\n"
   "friction: 0.1\\n"
@@ -3394,7 +4584,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"music\"\n"
   "  type: \"sound\"\n"
-  "  data: \"sound: \\\"/assets/sounds/Bit_Coast.ogg\\\"\\n"
+  "  data: \"sound: \\\"/assets/sounds/Rushbubble.ogg\\\"\\n"
   "looping: 1\\n"
   "group: \\\"master\\\"\\n"
   "gain: 1.0\\n"

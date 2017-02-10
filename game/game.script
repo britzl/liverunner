@@ -14,27 +14,17 @@ function init(self)
 	msg.post("#", "acquire_input_focus")
 	
 	flow(function()
-		local level = 1
-		local level_proxy = "#level" .. level
+		local level
+		local next_level = 3
+		local level_proxy
 		while true do
 			--
-			-- Load level and wait until the player has completed the level
+			-- Do we need to load any missing resources?
 			--
-			flow.load(level_proxy)
-			flow.until_message(hash("level_completed"))
-			show_popup(("Level %d\n\nCompleted!"):format(level), "PLAY" )
-			flow.until_message(hash("popup_button"))
-			hide_popup()
-			flow.delay(1)
-
-			--
-			-- Next level, do we need to load any missing resources?
-			--
-			level = math.min(2, level + 1)
-			local next_level_proxy = "#level"..tostring(level)
+			local next_level_proxy = "#level"..tostring(next_level)
 			local missing_resource_count = live_update.missing_resource_count(next_level_proxy)
 			if missing_resource_count > 0 then
-				msg.post("popup#script", "show", { text = ("Level %d\n\nMissing resources: %d"):format(level, missing_resource_count), button = "LOAD" })
+				msg.post("popup#script", "show", { text = ("Level %d\n\nMissing resources: %d"):format(next_level, missing_resource_count), button = "LOAD" })
 				flow.until_message(hash("popup_button"))
 
 				--
@@ -46,14 +36,14 @@ function init(self)
 					while true do
 						local message_id, message = flow.until_message(live_update.RESOURCES_LOADED, live_update.RESOURCES_MISSING, live_update.RESOURCES_PROGRESS)
 						if message_id == live_update.RESOURCES_PROGRESS then
-							show_popup(("Level %d\n\nLoaded %d bytes"):format(level, message.bytes))
+							show_popup(("Level %d\n\nLoaded %d bytes"):format(next_level, message.bytes))
 						elseif message_id == live_update.RESOURCES_LOADED then
 							show_popup(("Level %d\n\nLoaded all missing resources"):format(level), "PLAY")
 							flow.until_message(hash("popup_button"))
 							hide_popup()
 							break
 						elseif message_id == live_update.RESOURCES_MISSING then
-							show_popup(("Level %d\n\nUnable to load %d missing resources!"):format(level, message.count), "RETRY")
+							show_popup(("Level %d\n\nUnable to load %d missing resources!"):format(next_level, message.count), "RETRY")
 							flow.until_message(hash("popup_button"))
 							hide_popup()
 							break
@@ -62,7 +52,7 @@ function init(self)
 					missing_resource_count = live_update.missing_resource_count(next_level_proxy)
 				until missing_resource_count == 0
 			else
-				show_popup(("Level %d\n\nNo missing resources!"):format(level), "PLAY")
+				show_popup(("Level %d\n\nNo missing resources!"):format(next_level), "PLAY")
 				flow.until_message(hash("popup_button"))
 				hide_popup()
 			end
@@ -74,6 +64,19 @@ function init(self)
 				flow.unload(level_proxy)
 			end
 			level_proxy = next_level_proxy
+			level = next_level
+
+			--
+			-- Load level and wait until the player has completed the level
+			--
+			flow.load(level_proxy)
+			flow.until_message(hash("level_completed"))
+			show_popup(("Level %d\n\nCompleted!"):format(level), "PLAY" )
+			flow.until_message(hash("popup_button"))
+			hide_popup()
+			flow.delay(1)
+
+			next_level = math.min(2, level + 1)
 		end
 	end)
 end
@@ -84,6 +87,7 @@ end
 
 function update(self, dt)
 	flow.update(dt)
+	msg.post("@render:", "clear_color", { color = vmath.vector4(0.8352941176, 0.9294117647, 0.9647058824, 1) })
 end
 
 function on_message(self, message_id, message, sender)
