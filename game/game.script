@@ -15,7 +15,7 @@ function init(self)
 	
 	flow(function()
 		local level
-		local next_level = 3
+		local next_level = 1
 		local level_proxy
 		while true do
 			--
@@ -31,7 +31,7 @@ function init(self)
 				-- Try to load missing resources?
 				--
 				repeat
-					live_update.load_missing_resources(next_level_proxy, "http://127.0.0.1:8000/")
+					live_update.load_missing_resources(next_level_proxy, "https://britzl.github.io/liverunner/defold/")
 					
 					while true do
 						local message_id, message = flow.until_message(live_update.RESOURCES_LOADED, live_update.RESOURCES_MISSING, live_update.RESOURCES_PROGRESS)
