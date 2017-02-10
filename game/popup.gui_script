@@ -1,7 +1,6 @@
 local dirtylarry = require "dirtylarry/dirtylarry"
 
 function init(self)
-	msg.post("#", "acquire_input_focus")
 	self.root = gui.get_node("root")
 	self.text = gui.get_node("text")
 	
@@ -14,26 +13,23 @@ function final(self)
 	msg.post("#", "release_input_focus")
 end
 
-function update(self, dt)
-	--print("popup pos", gui.get_position(self.root))
-    -- Add update code here
-    -- Remove this function if not needed
-end
-
 function on_message(self, message_id, message, sender)
-	print(message_id)
 	if message_id == hash("show") then
-		print("showing popup")
+		self.sender = sender
 		if not gui.is_enabled(self.root) then
-			print("not enabled")
 			gui.set_enabled(self.root, true)
 		end
 		gui.cancel_animation(self.root, gui.PROP_POSITION)
-		gui.animate(self.root, gui.PROP_POSITION, self.initial_position, gui.EASING_OUTQUAD, 0.6, 0)
+		gui.animate(self.root, gui.PROP_POSITION, self.initial_position, gui.EASING_OUTQUAD, 0.6, 0, function()
+			msg.post("#", "acquire_input_focus")
+		end)
 		gui.set_text(self.text, message.text)
-		gui.set_text(gui.get_node("button/larrylabel"), message.button)
+
+		gui.set_enabled(gui.get_node("button/larrybutton"), message.button ~= nil)
+		gui.set_text(gui.get_node("button/larrylabel"), message.button or "")
 	elseif message_id == hash("hide") then
 		if gui.is_enabled(self.root) then
+			msg.post("#", "release_input_focus")
 			gui.cancel_animation(self.root, gui.PROP_POSITION)
 			gui.animate(self.root, gui.PROP_POSITION, self.initial_position + vmath.vector3(0, 1000, 0), gui.EASING_OUTQUAD, 0.6, 0, function()
 				gui.set_enabled(self.root, false)
@@ -44,7 +40,7 @@ end
 
 function on_input(self, action_id, action)
 	dirtylarry:button("button", action_id, action, function()
-		msg.post("#script", "popup_closed")
+		msg.post(self.sender, "popup_button")
 	end)
 end
 

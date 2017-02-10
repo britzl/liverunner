@@ -964,7 +964,7 @@ instances {
   prototype: "/game/bee.go"
   position {
     x: 2051.2703
-    y: 790.01416
+    y: 1911.8756
     z: 0.5
   }
   rotation {
@@ -1040,10 +1040,50 @@ instances {
   }
 }
 instances {
+  id: "bee6"
+  prototype: "/game/bee.go"
+  position {
+    x: 4077.1765
+    y: 789.78674
+    z: 0.5
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "bee7"
+  prototype: "/game/bee.go"
+  position {
+    x: 5585.954
+    y: 2299.8467
+    z: 0.5
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
   id: "flag_goal"
   prototype: "/game/flag_goal.go"
   position {
-    x: 17296.736
+    x: 9412.192
     y: 244.78322
     z: 0.0
   }
@@ -1063,7 +1103,7 @@ instances {
   id: "fireworks1"
   prototype: "/game/fireworks/fireworks_fire.go"
   position {
-    x: 17168.348
+    x: 9283.804
     y: 809.2642
     z: 0.5
   }
@@ -1083,7 +1123,7 @@ instances {
   id: "fireworks2"
   prototype: "/game/fireworks/fireworks_fire.go"
   position {
-    x: 16888.95
+    x: 9004.405
     y: 675.9145
     z: 0.5
   }
@@ -1111,7 +1151,7 @@ instances {
   id: "fireworks3"
   prototype: "/game/fireworks/fireworks_stars.go"
   position {
-    x: 17523.947
+    x: 9639.403
     y: 599.7146
     z: 0.5
   }
@@ -1139,7 +1179,7 @@ instances {
   id: "fireworks4"
   prototype: "/game/fireworks/fireworks_fire.go"
   position {
-    x: 17327.098
+    x: 9442.554
     y: 1069.6139
     z: 0.5
   }
@@ -1167,7 +1207,7 @@ instances {
   id: "fireworks5"
   prototype: "/game/fireworks/fireworks_stars.go"
   position {
-    x: 17861.984
+    x: 9977.44
     y: 818.7403
     z: 0.5
   }
@@ -3992,6 +4032,8 @@ embedded_instances {
   children: "bee3"
   children: "bee4"
   children: "bee5"
+  children: "bee6"
+  children: "bee7"
   data: ""
   position {
     x: 0.0

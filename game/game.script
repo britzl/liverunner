@@ -1,23 +1,30 @@
 local flow = require "ludobits.m.flow"
 local live_update = require "game.live_update"
 
+local function show_popup(text, button)
+	msg.post("popup#script", "show", { text = text, button = button })
+end
+
+local function hide_popup()
+	msg.post("popup#script", "hide")
+end
+
 function init(self)
 	math.randomseed(os.time())
 	msg.post("#", "acquire_input_focus")
 	
-	local level = 1
 	flow(function()
-		local level_proxy = "#level1"
+		local level = 1
+		local level_proxy = "#level" .. level
 		while true do
-		
 			--
-			-- Load level and wait until it is completed
+			-- Load level and wait until the player has completed the level
 			--
 			flow.load(level_proxy)
 			flow.until_message(hash("level_completed"))
-			msg.post("#loading", "show", { text = ("Level %d\n\nCompleted!"):format(level), button = "PLAY" })
-			flow.until_message(hash("popup_closed"))
-			msg.post("#loading", "hide")
+			show_popup(("Level %d\n\nCompleted!"):format(level), "PLAY" )
+			flow.until_message(hash("popup_button"))
+			hide_popup()
 			flow.delay(1)
 
 			--
@@ -26,30 +33,40 @@ function init(self)
 			level = math.min(2, level + 1)
 			local next_level_proxy = "#level"..tostring(level)
 			local missing_resource_count = live_update.missing_resource_count(next_level_proxy)
-			print("missing", missing_resource_count)
 			if missing_resource_count > 0 then
-				msg.post("#loading", "show", { text = ("Level %d\n\nMissing resources: %d"):format(level, missing_resource_count), button = "LOAD" })
-			else
-				print("calling show")
-				msg.post("#loading", "show", { text = ("Level %d\n\nNo missing resources!"):format(level), button = "PLAY" })
-			end
-			flow.until_message(hash("popup_closed"))
-			msg.post("#loading", "hide")
+				msg.post("popup#script", "show", { text = ("Level %d\n\nMissing resources: %d"):format(level, missing_resource_count), button = "LOAD" })
+				flow.until_message(hash("popup_button"))
 
-			--
-			-- Try to load missing resources?
-			--
-			while missing_resource_count > 0 do
-				live_update.load_missing_resources(next_level_proxy)
-				local message_id = flow.until_message(hash("resources_loaded"), hash("resources_missing"))
-				if message_id == hash("resources_missing") then
-					msg.post("#loading", "show", { text = ("Level %d\n\nUnable to load missing resources!"):format(level), button = "RETRY" })
-					flow.until_message(hash("popup_closed"))
-					msg.post("#loading", "hide")
-				end
-				missing_resource_count = live_update.missing_resource_count(next_level_proxy)
+				--
+				-- Try to load missing resources?
+				--
+				repeat
+					live_update.load_missing_resources(next_level_proxy, "http://127.0.0.1:8000/")
+					
+					while true do
+						local message_id, message = flow.until_message(live_update.RESOURCES_LOADED, live_update.RESOURCES_MISSING, live_update.RESOURCES_PROGRESS)
+						if message_id == live_update.RESOURCES_PROGRESS then
+							show_popup(("Level %d\n\nLoaded %d bytes"):format(level, message.bytes))
+						elseif message_id == live_update.RESOURCES_LOADED then
+							show_popup(("Level %d\n\nLoaded all missing resources"):format(level), "PLAY")
+							flow.until_message(hash("popup_button"))
+							hide_popup()
+							break
+						elseif message_id == live_update.RESOURCES_MISSING then
+							show_popup(("Level %d\n\nUnable to load %d missing resources!"):format(level, message.count), "RETRY")
+							flow.until_message(hash("popup_button"))
+							hide_popup()
+							break
+						end
+					end
+					missing_resource_count = live_update.missing_resource_count(next_level_proxy)
+				until missing_resource_count == 0
+			else
+				show_popup(("Level %d\n\nNo missing resources!"):format(level), "PLAY")
+				flow.until_message(hash("popup_button"))
+				hide_popup()
 			end
-			
+
 			--
 			-- Unload current level
 			--

@@ -1,4 +1,4 @@
-script: "/game/loading_level.gui_script"
+script: "/game/popup.gui_script"
 fonts {
   name: "riffic_medium"
   font: "/assets/fonts/riffic_medium.font"
@@ -12,22 +12,15 @@ textures {
   texture: "/dirtylarry/dirtylarry.atlas"
 }
 background_color {
-  x: 0.0
-  y: 0.0
-  z: 0.0
   w: 1.0
 }
 nodes {
   position {
     x: 568.0
     y: 320.0
-    z: 0.0
     w: 1.0
   }
   rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
     w: 1.0
   }
   scale {
@@ -39,7 +32,6 @@ nodes {
   size {
     x: 500.0
     y: 500.0
-    z: 0.0
     w: 1.0
   }
   color {
@@ -48,15 +40,8 @@ nodes {
     z: 1.0
     w: 1.0
   }
-  type: TYPE_BOX
-  blend_mode: BLEND_MODE_ALPHA
   texture: "dirtylarry/button_normal"
   id: "root"
-  xanchor: XANCHOR_NONE
-  yanchor: YANCHOR_NONE
-  pivot: PIVOT_CENTER
-  adjust_mode: ADJUST_MODE_FIT
-  layer: ""
   inherit_alpha: true
   slice9 {
     x: 12.0
@@ -64,24 +49,13 @@ nodes {
     z: 12.0
     w: 12.0
   }
-  clipping_mode: CLIPPING_MODE_NONE
-  clipping_visible: true
-  clipping_inverted: false
-  alpha: 1.0
-  template_node_child: false
-  size_mode: SIZE_MODE_MANUAL
 }
 nodes {
   position {
-    x: 0.0
     y: -180.0
-    z: 0.0
     w: 1.0
   }
   rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
     w: 1.0
   }
   scale {
@@ -93,7 +67,6 @@ nodes {
   size {
     x: 200.0
     y: 100.0
-    z: 0.0
     w: 1.0
   }
   color {
@@ -103,34 +76,17 @@ nodes {
     w: 1.0
   }
   type: TYPE_TEMPLATE
-  blend_mode: BLEND_MODE_ALPHA
   id: "button"
-  xanchor: XANCHOR_NONE
-  yanchor: YANCHOR_NONE
-  pivot: PIVOT_CENTER
-  adjust_mode: ADJUST_MODE_FIT
   parent: "root"
-  layer: ""
   inherit_alpha: true
-  clipping_mode: CLIPPING_MODE_NONE
-  clipping_visible: true
-  clipping_inverted: false
-  alpha: 1.0
   template: "/dirtylarry/button.gui"
-  template_node_child: false
   size_mode: SIZE_MODE_AUTO
 }
 nodes {
   position {
-    x: 0.0
-    y: 0.0
-    z: 0.0
     w: 1.0
   }
   rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
     w: 1.0
   }
   scale {
@@ -142,7 +98,6 @@ nodes {
   size {
     x: 200.0
     y: 66.0
-    z: 0.0
     w: 1.0
   }
   color {
@@ -151,16 +106,9 @@ nodes {
     z: 1.0
     w: 1.0
   }
-  type: TYPE_BOX
-  blend_mode: BLEND_MODE_ALPHA
   texture: "button/button_normal"
   id: "button/larrybutton"
-  xanchor: XANCHOR_NONE
-  yanchor: YANCHOR_NONE
-  pivot: PIVOT_CENTER
-  adjust_mode: ADJUST_MODE_FIT
   parent: "button"
-  layer: ""
   inherit_alpha: true
   slice9 {
     x: 32.0
@@ -168,25 +116,14 @@ nodes {
     z: 32.0
     w: 32.0
   }
-  clipping_mode: CLIPPING_MODE_NONE
-  clipping_visible: true
-  clipping_inverted: false
-  alpha: 1.0
   overridden_fields: 4
   template_node_child: true
-  size_mode: SIZE_MODE_MANUAL
 }
 nodes {
   position {
-    x: 0.0
-    y: 0.0
-    z: 0.0
     w: 1.0
   }
   rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
     w: 1.0
   }
   scale {
@@ -198,7 +135,6 @@ nodes {
   size {
     x: 200.0
     y: 100.0
-    z: 0.0
     w: 1.0
   }
   color {
@@ -208,17 +144,10 @@ nodes {
     w: 1.0
   }
   type: TYPE_TEXT
-  blend_mode: BLEND_MODE_ALPHA
   text: "PLAY"
   font: "larryfont"
   id: "button/larrylabel"
-  xanchor: XANCHOR_NONE
-  yanchor: YANCHOR_NONE
-  pivot: PIVOT_CENTER
   outline {
-    x: 0.0
-    y: 0.0
-    z: 0.0
     w: 1.0
   }
   shadow {
@@ -227,34 +156,17 @@ nodes {
     z: 1.0
     w: 1.0
   }
-  adjust_mode: ADJUST_MODE_FIT
-  line_break: false
   parent: "button/larrybutton"
-  layer: ""
   inherit_alpha: true
-  clipping_mode: CLIPPING_MODE_NONE
-  clipping_visible: true
-  clipping_inverted: false
-  alpha: 1.0
-  outline_alpha: 1.0
-  shadow_alpha: 1.0
   overridden_fields: 8
   template_node_child: true
-  text_leading: 1.0
-  text_tracking: 0.0
-  size_mode: SIZE_MODE_MANUAL
 }
 nodes {
   position {
-    x: 0.0
     y: 225.0
-    z: 0.0
     w: 1.0
   }
   rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
     w: 1.0
   }
   scale {
@@ -266,7 +178,6 @@ nodes {
   size {
     x: 450.0
     y: 350.0
-    z: 0.0
     w: 1.0
   }
   color {
@@ -276,12 +187,8 @@ nodes {
     w: 1.0
   }
   type: TYPE_TEXT
-  blend_mode: BLEND_MODE_ALPHA
-  text: ""
   font: "riffic_medium"
   id: "text"
-  xanchor: XANCHOR_NONE
-  yanchor: YANCHOR_NONE
   pivot: PIVOT_N
   outline {
     x: 1.0
@@ -295,22 +202,10 @@ nodes {
     z: 1.0
     w: 1.0
   }
-  adjust_mode: ADJUST_MODE_FIT
   line_break: true
   parent: "root"
-  layer: ""
   inherit_alpha: true
-  clipping_mode: CLIPPING_MODE_NONE
-  clipping_visible: true
-  clipping_inverted: false
-  alpha: 1.0
-  outline_alpha: 1.0
-  shadow_alpha: 1.0
-  template_node_child: false
-  text_leading: 1.0
   text_tracking: 0.1
   size_mode: SIZE_MODE_AUTO
 }
-material: "/builtins/materials/gui.material"
 adjust_reference: ADJUST_REFERENCE_PARENT
-max_nodes: 512
