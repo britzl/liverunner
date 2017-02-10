@@ -31,24 +31,27 @@ function init(self)
 				-- Try to load missing resources?
 				--
 				repeat
-					live_update.load_missing_resources(next_level_proxy, "https://britzl.github.io/liverunner/defold/")
-					
-					while true do
-						local message_id, message = flow.until_message(live_update.RESOURCES_LOADED, live_update.RESOURCES_MISSING, live_update.RESOURCES_PROGRESS)
-						if message_id == live_update.RESOURCES_PROGRESS then
-							show_popup(("Level %d\n\nLoaded %d bytes"):format(next_level, message.bytes))
-						elseif message_id == live_update.RESOURCES_LOADED then
-							show_popup(("Level %d\n\nLoaded all missing resources"):format(level), "PLAY")
-							flow.until_message(hash("popup_button"))
-							hide_popup()
-							break
-						elseif message_id == live_update.RESOURCES_MISSING then
-							show_popup(("Level %d\n\nUnable to load %d missing resources!"):format(next_level, message.count), "RETRY")
-							flow.until_message(hash("popup_button"))
-							hide_popup()
-							break
+					local loading = true
+					live_update.load_missing_resources(next_level_proxy, "http://127.0.0.1:8000/defold/", function(status)
+						if status.done then
+							if status.failed > 0 then
+								show_popup(("Level %d\n\nUnable to load %d missing resources!"):format(next_level, status.failed), "RETRY")
+								loading = false
+							else
+								print("DONE LOADING")
+								show_popup(("Level %d\n\nLoaded all missing resources"):format(level), "PLAY")
+								loading = false
+							end
+						else
+							print("PROGRESS")
+							show_popup(("Level %d\n\nLoaded %d bytes and %d/%d resources"):format(next_level, status.bytes, status.loaded, status.total))
 						end
+					end)
+					while loading do
+						flow.frames(1)
 					end
+					flow.until_message(hash("popup_button"))
+					hide_popup()
 					missing_resource_count = live_update.missing_resource_count(next_level_proxy)
 				until missing_resource_count == 0
 			else
