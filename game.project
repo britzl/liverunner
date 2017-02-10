@@ -1,5 +1,5 @@
 [project]
-title = Live Runner
+title = LiveRunner
 dependencies = https://github.com/britzl/ludobits/archive/1.1.zip, https://github.com/andsve/dirtylarry/archive/master.zip
 
 [bootstrap]
