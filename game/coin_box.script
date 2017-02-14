@@ -11,7 +11,7 @@ function on_message(self, message_id, message, sender)
 			self.active = false
 			msg.post("level", "create_box_coin", { position = go.get_position() })
 			msg.post("#sprite", "play_animation", { id = hash("boxCoin_disabled") })
-			msg.post("/sounds#bump", "play_sound", { delay = 0, gain = 0.25 })
+			msg.post("game:/game", "play_sfx", { sound = "/sounds#bump", gain = 0.25, delay = 0 })
 		end
 	end
 end

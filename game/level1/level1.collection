@@ -631,31 +631,11 @@ instances {
     z: 1.0
   }
 }
-instances {
-  id: "sounds"
-  prototype: "/game/sounds.go"
-  position {
-    x: 12913.661
-    y: 843.2691
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
 collection_instances {
   id: "player"
   collection: "/game/player/player.collection"
   position {
-    x: 610.07275
+    x: 987.9017
     y: 254.72397
     z: 0.5
   }
@@ -1364,7 +1344,7 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 356.48975
+    x: 734.31866
     y: 58.70902
     z: 0.0
   }

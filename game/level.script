@@ -2,14 +2,14 @@ go.property("bgcolor", vmath.vector4(0.8352941176, 0.9294117647, 0.9647058824, 1
 go.property("zoom", 1)
 
 local flow = require "ludobits.m.flow"
-
+local settings = require "game.settings"
 
 local CREATE_BOX_COIN = hash("create_box_coin")
 local LEVEL_COMPLETED = hash("level_completed")
 
 function init(self)
 	go.animate("#", "zoom", go.PLAYBACK_ONCE_FORWARD, 1.5, go.EASING_LINEAR, 2)
-	msg.post("#music", "play_sound", { delay = 0, gain = 0.5 })
+	msg.post("#music", "play_sound", { delay = 0, gain = settings.MUSIC })
 end
 
 function final(self)
