@@ -40,6 +40,7 @@ function init(self)
 					local loading = true
 						
 
+					--live_update.load_missing_resources(next_level_proxy, "https://127.0.0.1:8000", function(status)
 					--live_update.load_missing_resources(next_level_proxy, "https://britzl.github.io/liverunner/defold/", function(status)
 					live_update.load_missing_resources(next_level_proxy, "https://s3-eu-west-1.amazonaws.com/defold.liverunner/resources/", function(status)
 						if status.done then
