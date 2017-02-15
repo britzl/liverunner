@@ -1,3 +1,7 @@
 [liveupdate]
-mode=Zip
-zip-filepath=/Users/bjorn.ritzl/Downloads/liveupdate
+mode = Amazon
+zip-filepath = /Users/bjorn.ritzl/Downloads/liveupdate
+amazon-credential-profile = liverunner
+amazon-bucket = defold.liverunner
+amazon-prefix = resources
+
