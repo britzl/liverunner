@@ -280,4 +280,5 @@ emitters {
       }
     }
   }
+  size_mode: SIZE_MODE_MANUAL
 }
