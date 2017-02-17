@@ -16,7 +16,6 @@ function M.load_missing_resources(proxy, url, callback)
 
 	local function update_status()
 		local done = (failed + loaded) == total
-		print("sending status", done, failed, loaded, bytes, total)
 		callback({
 			proxy = proxy,
 			bytes = bytes,
@@ -31,7 +30,7 @@ function M.load_missing_resources(proxy, url, callback)
 
 		for _,hexdigest in pairs(missing_resources) do
 			http.request(url .. hexdigest, "GET", function(self, id, response)
-				if response.status == 200 then
+				if response.status == 200 or response.status == 304 then
 					bytes = bytes + #response.response
 					update_status()
 					resource.store_resource(manifest, response.response, hexdigest, function(self, hexdigest, status)
