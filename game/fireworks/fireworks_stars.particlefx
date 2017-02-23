@@ -17,7 +17,7 @@ emitters {
   tile_source: "/assets/entities.atlas"
   animation: "star"
   material: "/builtins/materials/particlefx.material"
-  blend_mode: BLEND_MODE_ADD
+  blend_mode: BLEND_MODE_ALPHA
   particle_orientation: PARTICLE_ORIENTATION_DEFAULT
   inherit_velocity: 0.0
   max_particle_count: 40
