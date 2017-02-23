@@ -65,9 +65,11 @@ function init(self)
 					missing_resource_count = live_update.missing_resource_count(next_level_proxy)
 				until missing_resource_count == 0
 			else
-				show_popup(("Level %d\n\nNo missing resources!"):format(next_level), "PLAY")
-				flow.until_message(hash("popup_button"))
-				hide_popup()
+				if next_level > 1 then
+					show_popup(("Level %d\n\nNo missing resources!"):format(next_level), "PLAY")
+					flow.until_message(hash("popup_button"))
+					hide_popup()
+				end
 			end
 
 			--
