@@ -108,7 +108,7 @@ function on_message(self, message_id, message, sender)
 		end
 	elseif message_id == CONTACT_POINT_RESPONSE then
 		if message.group == ENEMY then
-			if message.normal.y > 0.6 then
+			if message.normal.y > 0.3 then
 				go.delete(message.other_id)
 				self.platformer.ground_contact = true
 				self.platformer.jump(JUMP_POWER * 0.35, false, true)
