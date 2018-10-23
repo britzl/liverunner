@@ -1,7 +1,6 @@
 go.property("bgcolor", vmath.vector4(0.8352941176, 0.9294117647, 0.9647058824, 1))
 go.property("zoom", 1)
 
-local flow = require "ludobits.m.flow"
 local settings = require "game.settings"
 
 local CREATE_BOX_COIN = hash("create_box_coin")
@@ -18,14 +17,11 @@ function final(self)
 end
 
 function update(self, dt)
-	flow.update(dt)
 	msg.post("@render:", "clear_color", { color = self.bgcolor })
 	msg.post("@render:", "set_zoom", { zoom = self.zoom })
 end
 
 function on_message(self, message_id, message, sender)
-	flow.on_message(message_id, message, sender)
-	
 	if message_id == CREATE_BOX_COIN then
 		local coin = factory.create("#coinfactory", message.position + vmath.vector3(0, 50, 0))
 		go.animate(coin, "position", go.PLAYBACK_ONCE_PINGPONG, message.position + vmath.vector3(0, 100, 0), go.EASING_OUTQUAD, 0.3, 0, function()
@@ -38,8 +34,7 @@ function on_message(self, message_id, message, sender)
 		msg.post("fireworks3", "start")
 		msg.post("fireworks4", "start")
 		msg.post("fireworks5", "start")
-		flow(function()
-			flow.delay(4)
+		timer.delay(4, false, function()
 			msg.post("game:/game", "level_completed")
 		end)
 	end

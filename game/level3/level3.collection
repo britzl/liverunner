@@ -4521,6 +4521,7 @@ embedded_instances {
   "  id: \"coinfactory\"\n"
   "  type: \"factory\"\n"
   "  data: \"prototype: \\\"/game/coin.go\\\"\\n"
+  "load_dynamically: false\\n"
   "\"\n"
   "  position {\n"
   "    x: 0.0\n"

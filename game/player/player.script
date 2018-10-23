@@ -1,4 +1,4 @@
-local platformer = require "ludobits.m.platformer"
+local platypus = require "platypus.platypus"
 
 local COIN = hash("coin")
 local ENEMY = hash("enemy")
@@ -31,7 +31,6 @@ end
 local function move_back(self)
 	if not self.stop then
 		animate(self, hash("player_idle"))
-		self.platformer.stop()
 		self.stop = true
 		go.animate(".", "position", go.PLAYBACK_ONCE_FORWARD, self.initial_position, go.EASING_INOUTQUAD, 2, 0, function()
 			self.stop = false
@@ -41,10 +40,22 @@ end
 
 function init(self)
 	msg.post("#", "acquire_input_focus")
-	self.velocity = vmath.vector3()
-	self.platformer = platformer.create({ hash("ground"), hash("box") })
-	self.platformer.gravity = GRAVITY
-	self.velocity = vmath.vector3(200, 0, 0)
+	self.platypus = platypus.create({
+		collisions = {
+			separation = platypus.SEPARATION_SHAPES,
+			ground = { hash("ground"), hash("box") },
+			left = 30, right = 30,
+			top = 46, bottom = 46,
+		},
+		allow_wall_jump = true,
+		allow_double_jump = true,
+		max_velocity = JUMP_POWER * 2,
+		gravity = GRAVITY,
+		debug = false,
+	})
+
+	self.direction = vmath.vector3(1, 0, 0)
+	
 	self.coins = 0
 	self.activator_url = msg.url("#activator")
 	self.initial_position = go.get_position()
@@ -60,39 +71,36 @@ function update(self, dt)
 		return
 	end
 
-	sprite.set_hflip("#sprite", self.platformer.velocity.x < 0)
+	sprite.set_hflip("#sprite", self.platypus.velocity.x < 0)
 
 	-- make sure we're moving forward if we have ground contact and we're
 	-- not about to make a jump
-	if self.platformer.ground_contact and not self.platformer.is_jumping() then
-		animate(self, hash("player_walk"))
-		if self.platformer.velocity.x ~= RUNNING_SPEED then
-			self.platformer.right(RUNNING_SPEED)
-		end
-	else
+	if self.platypus.is_jumping() then
 		animate(self, hash("player_jump"))
-	end
-	
-	-- make sure we're moving forward if we're in the air and not wall jumping
-	if self.platformer.velocity.y ~= 0 and not self.platformer.wall_jumping then
-		self.platformer.right(RUNNING_SPEED)
-	end
-	
-	-- wall slide should slow down fall
-	if self.platformer.wall_contact and self.platformer.is_falling() then
-		self.platformer.gravity = GRAVITY * 0.25
-	else
-		self.platformer.gravity = GRAVITY
+	elseif self.platypus.has_ground_contact() then
+		animate(self, hash("player_walk"))
+		self.direction.x = 1
 	end
 
-	self.platformer.update(dt)
+	if not self.platypus.has_wall_contact() then
+		self.platypus.move(self.direction * RUNNING_SPEED)
+	end
+			
+	-- wall slide should slow down fall
+	if self.platypus.has_wall_contact() then
+		self.platypus.gravity = GRAVITY * 0.25
+	else
+		self.platypus.gravity = GRAVITY
+	end
+
+	self.platypus.update(dt)
 end
 
 function on_message(self, message_id, message, sender)
 	if self.stop then
 		return
 	end
-	self.platformer.on_message(message_id, message)
+	self.platypus.on_message(message_id, message)
 	if message_id == COLLISION_RESPONSE then
 		if message.group == COIN then
 			go.delete(message.other_id)
@@ -101,7 +109,6 @@ function on_message(self, message_id, message, sender)
 			move_back(self)
 		elseif message.group == GOAL then
 			self.stop = true
-			self.platformer.stop()
 			animate(self, hash("player_idle"))
 			msg.post("#", "release_input_focus")
 			msg.post("/level", "level_completed")
@@ -110,8 +117,7 @@ function on_message(self, message_id, message, sender)
 		if message.group == ENEMY then
 			if message.normal.y > 0.3 then
 				go.delete(message.other_id)
-				self.platformer.ground_contact = true
-				self.platformer.jump(JUMP_POWER * 0.35, false, true)
+				self.platypus.force_jump(JUMP_POWER * 0.35)
 			else
 				go.delete(message.other_id)
 				move_back(self)
@@ -130,10 +136,11 @@ function on_input(self, action_id, action)
 	if action_id == hash("jump") then
 		if action.pressed then
 			animate(self, hash("player_jump"))
-			self.platformer.jump(JUMP_POWER, false, true)
+			self.platypus.jump(JUMP_POWER, false, true)
+			self.direction.x = self.platypus.velocity.x > 0 and 1 or -1
 			send_to_game("play_sfx", { sound = "/sounds#jump", gain = 0.25, delay = 0 })
 		elseif action.released then
-			self.platformer.abort_jump(0.1)
+			self.platypus.abort_jump(0.1)
 		end
 	end
 end
