@@ -44,7 +44,7 @@ function init(self)
 		collisions = {
 			separation = platypus.SEPARATION_SHAPES,
 			ground = { hash("ground"), hash("box") },
-			left = 30, right = 30,
+			left = 32, right = 32,
 			top = 46, bottom = 46,
 		},
 		allow_wall_jump = true,
