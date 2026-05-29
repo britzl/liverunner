@@ -19,7 +19,7 @@ function on_message(self, message_id, message, sender)
 		if not gui.is_enabled(self.root) then
 			gui.set_enabled(self.root, true)
 		end
-		gui.cancel_animation(self.root, gui.PROP_POSITION)
+		gui.cancel_animations(self.root, gui.PROP_POSITION)
 		gui.animate(self.root, gui.PROP_POSITION, self.initial_position, gui.EASING_OUTQUAD, 0.6, 0, function()
 			msg.post("#", "acquire_input_focus")
 		end)
@@ -30,7 +30,7 @@ function on_message(self, message_id, message, sender)
 	elseif message_id == hash("hide") then
 		if gui.is_enabled(self.root) then
 			msg.post("#", "release_input_focus")
-			gui.cancel_animation(self.root, gui.PROP_POSITION)
+			gui.cancel_animations(self.root, gui.PROP_POSITION)
 			gui.animate(self.root, gui.PROP_POSITION, self.initial_position + vmath.vector3(0, 1000, 0), gui.EASING_OUTQUAD, 0.6, 0, function()
 				gui.set_enabled(self.root, false)
 			end)
